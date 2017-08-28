@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateRequestNote.php">
+    <totals>
+      <lines total="66" comments="21" code="45" executable="14" executed="14" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateRequestNote" start="12" executable="14" executed="14" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\RequestNote"/>
+      <method name="__construct" signature="__construct($requestId, $userId, $body)" start="38" end="43" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="handle" signature="handle(RequestNoteRepositoryInterface $noteRepo)" start="50" end="65" crap="1" executable="10" executed="10" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="40">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="55">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="60">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Unit\Jobs\RequestNote\CreateRequestNoteTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

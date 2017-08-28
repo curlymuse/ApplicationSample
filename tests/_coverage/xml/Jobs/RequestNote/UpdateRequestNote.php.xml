@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UpdateRequestNote.php">
+    <totals>
+      <lines total="59" comments="17" code="42" executable="11" executed="11" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UpdateRequestNote" start="12" executable="11" executed="11" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\RequestNote"/>
+      <method name="__construct" signature="__construct($noteId, $body)" start="32" end="36" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(RequestNoteRepositoryInterface $noteRepo)" start="43" end="58" crap="1" executable="8" executed="8" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="34">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="46">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="55">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Unit\Jobs\RequestNote\UpdateRequestNoteTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

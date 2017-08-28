@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AuthenticateNewHotelUserRequest.php">
+    <totals>
+      <lines total="31" comments="10" code="21" executable="2" executed="2" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="AuthenticateNewHotelUserRequest" start="7" executable="2" executed="2" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Requests\Session"/>
+      <method name="authorize" signature="authorize()" start="14" end="17" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="rules" signature="rules()" start="24" end="30" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="16">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

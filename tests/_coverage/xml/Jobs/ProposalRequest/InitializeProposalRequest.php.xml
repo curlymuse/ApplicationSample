@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="InitializeProposalRequest.php">
+    <totals>
+      <lines total="120" comments="37" code="83" executable="29" executed="28" percent="96.55%"/>
+      <methods count="4" tested="3" percent="75.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="InitializeProposalRequest" start="15" executable="29" executed="28" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\ProposalRequest"/>
+      <method name="__construct" signature="__construct($requestId, $hotelId, $newContacts = [], $existingContactIds = [])" start="47" end="53" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="handle" signature="handle(ProposalRepositoryInterface $proposalRepo)" start="60" end="103" crap="3" executable="22" executed="22" coverage="100"/>
+      <method name="getRequestId" signature="getRequestId()" start="108" end="111" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getHotelId" signature="getHotelId()" start="116" end="119" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="49">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="51">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="67">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="72">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="73">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="74">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="75">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="76">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="78">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="83">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="87">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="88">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="89">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="90">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="91">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="97">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="98">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="100">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="103">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="110">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

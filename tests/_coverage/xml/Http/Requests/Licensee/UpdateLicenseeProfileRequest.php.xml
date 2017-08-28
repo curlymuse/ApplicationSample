@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UpdateLicenseeProfileRequest.php">
+    <totals>
+      <lines total="30" comments="10" code="20" executable="2" executed="2" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UpdateLicenseeProfileRequest" start="7" executable="2" executed="2" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Requests\Licensee"/>
+      <method name="authorize" signature="authorize()" start="14" end="17" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="rules" signature="rules()" start="24" end="29" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="16">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

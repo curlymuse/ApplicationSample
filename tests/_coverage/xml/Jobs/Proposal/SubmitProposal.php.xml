@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="SubmitProposal.php">
+    <totals>
+      <lines total="61" comments="23" code="38" executable="6" executed="4" percent="66.67%"/>
+      <methods count="4" tested="2" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="SubmitProposal" start="11" executable="6" executed="4" crap="4.59">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Proposal"/>
+      <method name="__construct" signature="__construct($proposalId, $userId)" start="31" end="35" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(ProposalRepositoryInterface $proposalRepo)" start="42" end="44" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getProposalId" signature="getProposalId()" start="49" end="52" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getUserId" signature="getUserId()" start="57" end="60" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="33">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Proposal\SubmitProposalTest::test_handle"/>
+      </line>
+      <line nr="34">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Proposal\SubmitProposalTest::test_handle"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Proposal\SubmitProposalTest::test_handle"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Jobs\Proposal\SubmitProposalTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

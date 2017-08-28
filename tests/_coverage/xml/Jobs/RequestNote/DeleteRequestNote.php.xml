@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="DeleteRequestNote.php">
+    <totals>
+      <lines total="46" comments="13" code="33" executable="7" executed="7" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="DeleteRequestNote" start="12" executable="7" executed="7" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\RequestNote"/>
+      <method name="__construct" signature="__construct($noteId)" start="26" end="29" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle(RequestNoteRepositoryInterface $noteRepo)" start="36" end="45" crap="1" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Jobs\RequestNote\DeleteRequestNoteTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

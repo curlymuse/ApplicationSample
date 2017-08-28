@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AuthenticateExistingHotelUserRequest.php">
+    <totals>
+      <lines total="32" comments="10" code="22" executable="2" executed="2" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="AuthenticateExistingHotelUserRequest" start="7" executable="2" executed="2" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Requests\Session"/>
+      <method name="authorize" signature="authorize()" start="14" end="17" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="rules" signature="rules()" start="24" end="31" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="16">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

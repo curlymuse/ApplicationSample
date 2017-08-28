@@ -1,0 +1,36 @@
+<?php
+
+namespace Tests\Integration\Repositories;
+
+use App\Repositories\Contracts\DummyClassInterface;
+use Tests\TestCase;
+
+/**
+ * Class DummyClassTest
+ *
+ * @coversBaseClass \App\Repositories\DummyClass
+ */
+class DummyClassTest extends TestCase
+{
+    /**
+     * @var \Faker\Generator
+     */
+    protected $faker;
+
+    /**
+     * @var \App\Repositories\Contracts\DummyClassInterface
+     */
+    private $repo;
+
+    /**
+     * @before
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->faker = \Faker\Factory::create();
+
+        $this->repo = app(DummyClassInterface::class);
+    }
+}

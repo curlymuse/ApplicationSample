@@ -1,0 +1,2123 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"VueTypeahea",
+				"VueTypeaheadMixin"
+			],
+			[
+				"person",
+				"person_id"
+			],
+			[
+				"showupdateempl",
+				"showUpdateEmploymentOptions"
+			],
+			[
+				"applicant",
+				"applicantQuery"
+			],
+			[
+				"accounttype",
+				"bank_account_type"
+			],
+			[
+				"json",
+				"json_obj"
+			],
+			[
+				"jso",
+				"json_obj"
+			],
+			[
+				"totla",
+				"total_points"
+			],
+			[
+				"total",
+				"total_with_preseason_points"
+			],
+			[
+				"months_at",
+				"months_at_bank	(t3_lead.php)"
+			],
+			[
+				"drivers",
+				"drivers_license_number	(intimate_interactive.php)"
+			],
+			[
+				"orig",
+				"originating_url"
+			],
+			[
+				"direct",
+				"direct_deposit"
+			],
+			[
+				"months",
+				"months_at_address"
+			],
+			[
+				"skipped",
+				"skipped_at"
+			],
+			[
+				"home_team",
+				"home_team_spread"
+			],
+			[
+				"away_team",
+				"away_team_id"
+			],
+			[
+				"home",
+				"home_team_score"
+			],
+			[
+				"home_tea",
+				"home_team_id"
+			],
+			[
+				"winner",
+				"winner_vs_spread_team_id"
+			],
+			[
+				"plivo",
+				"plivo_config"
+			],
+			[
+				"kickoff",
+				"kickoff_at"
+			],
+			[
+				"Reminder",
+				"ReminderContract	(ReminderContract.php)"
+			],
+			[
+				"team",
+				"team_id	(Pick.php)"
+			],
+			[
+				"randN",
+				"randNumToEight"
+			],
+			[
+				"google",
+				"googleBackground"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"kick",
+				"kickoff_at"
+			],
+			[
+				"kik",
+				"kickoff_at	(Game.php)"
+			],
+			[
+				"WeeksCont",
+				"WeeksController	(WeeksController.php)"
+			],
+			[
+				"season_",
+				"season_years"
+			],
+			[
+				"seass",
+				"season_years"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"overwrite",
+				"overwriteWithStrData	(PropertyMatchNormalizedStrCommand.php)"
+			],
+			[
+				"normalzied_",
+				"normalized_last_line	(2015_08_04_165840_add_indexes_to_properties_and_str_properties_tables.php)"
+			],
+			[
+				"addre",
+				"address1"
+			],
+			[
+				"normalied_",
+				"normalized_primary_number	(PropertiesController.php)"
+			],
+			[
+				"HotelList",
+				"HotelList"
+			],
+			[
+				"ean_proper",
+				"ean_property_ids"
+			],
+			[
+				"ean_property",
+				"ean_property_ids"
+			],
+			[
+				"ean_proer",
+				"ean_property_ids"
+			],
+			[
+				"Attribute",
+				"AttributeProperty"
+			],
+			[
+				"Attribu",
+				"AttributeProperty"
+			],
+			[
+				"home_team_",
+				"home_team_score"
+			],
+			[
+				"Illuminate",
+				"Illuminate\\Database\\Eloquent\\Collection	(helpers.php)"
+			],
+			[
+				"success",
+				"success_codes"
+			],
+			[
+				"succes",
+				"success_codes"
+			],
+			[
+				"substr",
+				"substr()"
+			],
+			[
+				"saveEvent",
+				"saveApiEventData"
+			],
+			[
+				"attri",
+				"attribute"
+			],
+			[
+				"Atttr",
+				"AttributeProperty"
+			],
+			[
+				"attributes_prop",
+				"attributes_property"
+			],
+			[
+				"largest",
+				"largest_meeting_room"
+			],
+			[
+				"getblank",
+				"getBlankIdNoSFId"
+			],
+			[
+				"getunknow",
+				"getUnknownIdKnownSFIdData"
+			],
+			[
+				"getunknown",
+				"getUnknownIdBlankSFIdData"
+			],
+			[
+				"getUnknow",
+				"getUnknownIdBlankSFIdData"
+			],
+			[
+				"skip",
+				"skip_validation"
+			],
+			[
+				"codecep",
+				"codecept_debug	(FunctionalCommons.php)"
+			],
+			[
+				"calcula",
+				"calculatorModelLabel"
+			],
+			[
+				"caclulator",
+				"calculatorModel"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"twitter",
+				"twitter_key"
+			],
+			[
+				"ident",
+				"identity_key_set"
+			],
+			[
+				"identit",
+				"identity_key"
+			],
+			[
+				"identity",
+				"identity_value"
+			],
+			[
+				"Identity",
+				"IdentityKey	(Service.php)"
+			],
+			[
+				"db_id",
+				"db_id_key"
+			],
+			[
+				"found_key",
+				"found_key_values"
+			],
+			[
+				"assertRes",
+				"assertResponseOk"
+			],
+			[
+				"third_",
+				"third_json"
+			],
+			[
+				"assertstring",
+				"assertStringStartsWith"
+			],
+			[
+				"testToggleKeyvalue",
+				"testToggleKeyValueArrayWithCollection"
+			],
+			[
+				"assert",
+				"assertSame"
+			],
+			[
+				"twitteSer",
+				"twitterServiceStub"
+			],
+			[
+				"appr",
+				"approval_id"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"assertResponse",
+				"assertResponseStatus"
+			],
+			[
+				"assertresponse",
+				"assertResponseOk"
+			],
+			[
+				"service",
+				"service_id"
+			],
+			[
+				"assertrespo",
+				"assertResponseStatus"
+			],
+			[
+				"assertGreat",
+				"assertGreaterThanOrEqual"
+			],
+			[
+				"assertgre",
+				"assertGreaterThanOrEqual"
+			],
+			[
+				"interface",
+				"interface 	Language Construct"
+			],
+			[
+				"artisanmig",
+				"artisanMigrateReset"
+			],
+			[
+				"artisanMigrate",
+				"artisanMigrateReset"
+			],
+			[
+				"function",
+				"function 	Language Construct"
+			],
+			[
+				"highest",
+				"highest_num_in_range"
+			],
+			[
+				"bank_acc",
+				"bank_account_number"
+			],
+			[
+				"referral",
+				"referral_field_string"
+			],
+			[
+				"string",
+				"string_limits"
+			],
+			[
+				"boolean",
+				"boolean_fields"
+			],
+			[
+				"bank_field",
+				"bank_field_string"
+			],
+			[
+				"employment",
+				"employment_field_string"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"locatio",
+				"locations_points"
+			],
+			[
+				"average_poin",
+				"average_points_list"
+			],
+			[
+				"priori",
+				"priority_weightage"
+			],
+			[
+				"attributes",
+				"attributes_properties"
+			],
+			[
+				"star_rat",
+				"star_ratings"
+			],
+			[
+				"date",
+				"date()"
+			],
+			[
+				"weather",
+				"weather_deg"
+			],
+			[
+				"attributes_pr",
+				"attributes_properties_property_ids"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"thum",
+				"thumbnail_300"
+			],
+			[
+				"lengthofstay",
+				"length_of_stay"
+			],
+			[
+				"lengthofst",
+				"Length_of_Stay"
+			],
+			[
+				"main_group",
+				"main_group_arrival_date"
+			],
+			[
+				"arrival",
+				"arrival_date"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"transpare",
+				"transparent"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"transpar",
+				"transparent"
+			],
+			[
+				"set-priorit",
+				"set-priorities-tooltip"
+			],
+			[
+				"pri",
+				"primary-font-family"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"include",
+				"include	@include"
+			],
+			[
+				"includ",
+				"include	+include - Sass syntax"
+			],
+			[
+				"prima",
+				"primary-color"
+			],
+			[
+				"marig",
+				"margin-right"
+			],
+			[
+				"primar",
+				"primary-font-family"
+			],
+			[
+				"acce",
+				"accent-color"
+			],
+			[
+				"medium",
+				"medium-grey"
+			],
+			[
+				"post_de",
+				"post_departure_date_str"
+			],
+			[
+				"number",
+				"numberWithCommas"
+			],
+			[
+				"json_last_err",
+				"json_last_error_msg()	json Function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 51.0,
+		"last_filter": "bs3-formlab	",
+		"selected_items":
+		[
+			[
+				"bs3-formlab	",
+				"Snippet: bs3-form-label"
+			],
+			[
+				"bs3inputtext	",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"button",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new fiel",
+				"File: New File Relative to Current View"
+			],
+			[
+				"bs3buttonde",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3buttondefa	",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3radio",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"bs3buttondefa",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3button def	",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3icon",
+				"Snippet: bs3-icon-glyphicon"
+			],
+			[
+				"bs3hidden",
+				"Snippet: bs3-input-hidden"
+			],
+			[
+				"bs3button",
+				"Snippet: bs3-button-success"
+			],
+			[
+				"bs3buttonprimar",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"button def",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3buttonpri",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"bs3well",
+				"Snippet: bs3-well"
+			],
+			[
+				"bs3text",
+				"Snippet: bs3-input-text-h"
+			],
+			[
+				"v-for",
+				"Snippet: <div v-for=\"item in items\">"
+			],
+			[
+				"bs3date",
+				"Snippet: bs3-input-date"
+			],
+			[
+				"bs3input",
+				"Snippet: bs3-input-number"
+			],
+			[
+				"bs3form",
+				"Snippet: bs3-form"
+			],
+			[
+				"bs3select",
+				"Snippet: bs3-select"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntaxvue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"syntax:vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"installpacka",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"btn-default",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"panelfoo",
+				"Snippet: bs3-panel-footer"
+			],
+			[
+				"buttn",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3input-text",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"bs3lable",
+				"Snippet: bs3-form-label"
+			],
+			[
+				"bs3-lable",
+				"Snippet: bs3-label"
+			],
+			[
+				"col-4",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
+			[
+				"paenl",
+				"Snippet: bs3-panel-primary"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"bs3selec",
+				"Snippet: bs3-input-select"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"bs3table",
+				"Snippet: bs3-table-condensed"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word ",
+				"Word Wrap: Toggle"
+			],
+			[
+				"clear snif",
+				"PHP Code Sniffer: Clear sniffer marks"
+			],
+			[
+				"sniffer off",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"apache conf",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"sniff mar",
+				"PHP Code Sniffer: Clear sniffer marks"
+			],
+			[
+				"sniff off",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"clearfix",
+				"Snippet: bs3-clearfix"
+			],
+			[
+				"form",
+				"Snippet: bs3-form-inline"
+			],
+			[
+				"button-def",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3-selec",
+				"Snippet: bs3-input-select"
+			],
+			[
+				"button-defau",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"input",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"textarea",
+				"Snippet: bs3-textarea"
+			],
+			[
+				"button-defa",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"check",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"info",
+				"Snippet: bs3-alert-info"
+			],
+			[
+				"inof",
+				"Snippet: bs3-alert-info"
+			],
+			[
+				"checkbox",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"table",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"syntax",
+				"Set Syntax: PHP"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"DUPLI",
+				"File: Duplicate"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sniffer on",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"bs-3form",
+				"Snippet: bs3-form"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"dupil",
+				"File: Duplicate"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"sniff",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"phpunit",
+				"PHPUnit: Run with params"
+			],
+			[
+				"bs3-",
+				"Snippet: bs3-clearfix"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"table-res	",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"livereal",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"reload",
+				"Laravel Artisan: Dump Autoload"
+			],
+			[
+				"renaem",
+				"File: Rename"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"dupd",
+				"Snippet: DB-update"
+			],
+			[
+				"install theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"fix",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"SPACES",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"newfile",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"laravel",
+				"Laravel Generate: Model"
+			],
+			[
+				"clear sniffer",
+				"PHP Code Sniffer: Clear sniffer marks"
+			],
+			[
+				"mvoe",
+				"File: Move"
+			],
+			[
+				"fixer",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"phpcsfixer",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"phpcs fixer",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"create",
+				"Package Control: Create Package File"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ren",
+				"File: Rename"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 214.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nateritter/Sites/resbeat.dev"
+	],
+	"file_history":
+	[
+		"/Users/nateritter/Sites/resbeat.dev/resbeat.sublime-project",
+		"/Users/nateritter/Desktop/seneca.txt",
+		"/Users/nateritter/Sites/benny.dev/config/app.php",
+		"/Users/nateritter/Sites/benny.dev/resources/assets/js/components/bootstrap.js",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/assets/js/spark-bootstrap.js",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Controllers/PeopleController.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/api.php",
+		"/Users/nateritter/Sites/benny.dev/public/js/app.js",
+		"/Users/nateritter/Sites/benny.dev/resources/views/applications/create.blade.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Controllers/ApplicationsController.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Middleware/Authenticate.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Controllers/HomeController.php",
+		"/Users/nateritter/Sites/benny.dev/vendor/laravel/cashier/src/Billable.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/routes.php",
+		"/Users/nateritter/Sites/benny.dev/vendor/laravel/spark/src/Http/Middleware/VerifyTeamIsSubscribed.php",
+		"/Users/nateritter/Sites/benny.dev/vendor/laravel/spark/src/Http/Middleware/VerifyUserIsSubscribed.php",
+		"/Users/nateritter/Sites/benny.dev/vendor/laravel/spark/src/Team.php",
+		"/Users/nateritter/Sites/benny.dev/app/Team.php",
+		"/Users/nateritter/Sites/benny.dev/spark/src/Team.php",
+		"/Users/nateritter/Sites/benny.dev/spark/install-stubs/app/Providers/SparkTeamBillingServiceProvider.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Kernel.php",
+		"/Users/nateritter/Sites/benny.dev/config/auth.php",
+		"/Users/nateritter/Sites/benny.dev/spark/install-stubs/resources/views/home.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/home.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/layouts/app.blade.php",
+		"/Users/nateritter/Sites/benny.dev/gulpfile.js",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/layouts/app.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/layouts/blade/app.blade.php",
+		"/Users/nateritter/.aliases",
+		"/Users/nateritter/.bash_profile",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/applications/employment.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/applications/application.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/applications/assistance.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/applications/people.blade.php",
+		"/Users/nateritter/Sites/benny.dev/app/Person.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Controllers/Api/PeopleController.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/assistance.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/application.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/modals/applicant.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/employment.blade.php",
+		"/Users/nateritter/Sites/benny.dev/app/Card.php",
+		"/Users/nateritter/Sites/benny.dev/app/Http/Controllers/Api/CardsController.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_29_232359_add_default_field_to_card_person_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_002156_create_card_person_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_234452_create_cards_table.php",
+		"/Users/nateritter/Sites/benny.dev/resources/assets/js/components/home.js",
+		"/Users/nateritter/Sites/benny.dev/resources/assets/less/app.less",
+		"/Users/nateritter/Sites/benny.dev/.bowerrc",
+		"/Users/nateritter/Sites/benny.dev/bower_components/bootstrap/bower.json",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/blade/user.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/nav/blade/user.blade.php",
+		"/Users/nateritter/Sites/benny.dev/vendor/laravel/spark/resources/views/nav/blade/user.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/nav/user.blade.php",
+		"/Users/nateritter/Sites/benny.dev/package.json",
+		"/Users/nateritter/Sites/benny.dev/resources/views/people/create.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/search.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/assets/js/app.js",
+		"/Users/nateritter/Sites/benny.dev/resources/assets/js/components/applications.js",
+		"/Users/nateritter/Sites/benny.dev/public/js/app.js.map",
+		"/Users/nateritter/Sites/benny.dev/node_modules.bak/bootstrap/README.md",
+		"/Users/nateritter/Sites/benny.dev/node_modules.bak/vue-strap/src/Typeahead.vue",
+		"/Users/nateritter/Sites/benny.dev/resources/views/people/index.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/errors/common.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/applications/index.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/people/search.blade.php",
+		"/Users/nateritter/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nateritter/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/nateritter/Sites/benny.dev/benevolence-fund.sublime-project",
+		"/Users/nateritter/Sites/benny.dev/resources/views/partials/nav/vertical.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/guest.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/nav/teams.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/teams.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/settings/teams.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/settings/teams.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/brand.blade.php",
+		"/Users/nateritter/Sites/benny.dev/resources/views/vendor/spark/nav/user-left.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/user.blade.php",
+		"/Users/nateritter/Dropbox/Documents/Projects/BenevolenceFund.io/Branding/Brochure/v1/v1-text-changes.txt",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/models/faze_point.php",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/config/config.php",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/models/lead.php",
+		"/Users/nateritter/Downloads/results_qF7sDQht4vSdDRhGE.csv.json",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/models/i_t_media.php",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/models/a_d_f.php",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/webroot/js/pings/common.js",
+		"/Users/nateritter/Sites/pingbid.dev/trunk/app/webroot/js/groups/common.js",
+		"/Users/nateritter/Sites/benny.dev/app/Console/Kernel.php",
+		"/Users/nateritter/Sites/benny.dev/app/Providers/SparkServiceProvider.php",
+		"/Users/nateritter/Sites/benny.dev/app/ApplicationPersonRelationship.php",
+		"/Users/nateritter/Sites/benny.dev/app/Program.php",
+		"/Users/nateritter/Sites/benny.dev/app/User.php",
+		"/Users/nateritter/Sites/benny.dev/app/CardType.php",
+		"/Users/nateritter/Sites/benny.dev/app/Alias.php",
+		"/Users/nateritter/Sites/benny.dev/app/Application.php",
+		"/Users/nateritter/Sites/benny.dev/app/Relationship.php",
+		"/Users/nateritter/Sites/benny.dev/app/Status.php",
+		"/Users/nateritter/Sites/benny.dev/composer.json",
+		"/Users/nateritter/Sites/benny.dev/database/seeds/DatabaseSeeder.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_230354_create_programs_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_155700_add_url_and_phone_fields_to_programs_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_230249_create_statuses_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_230445_create_relationships_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_230529_create_people_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_234138_create_card_types_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_235031_create_applications_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_003737_create_application_program_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_003954_create_application_status_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_005011_create_aliases_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_19_003554_create_application_person_relationship_table.php",
+		"/Users/nateritter/Sites/benny.dev/database/migrations/2016_04_18_215719_create_applications_table.php",
+		"/Users/nateritter/Sites/benny.dev/.env",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/settings/teams/create-team.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/resources/views/nav/blade/teams.blade.php",
+		"/Users/nateritter/Sites/benny.dev/spark/src/Http/Middleware/VerifyUserHasTeam.php",
+		"/Users/nateritter/Sites/benny.dev/terms.md",
+		"/Users/nateritter/Sites/envelope.ninja.dev/.env",
+		"/Users/nateritter/Sites/envelope.ninja.dev/Vagrantfile",
+		"/Users/nateritter/Sites/benevolence-fund.dev/Homestead.yaml",
+		"/Users/nateritter/Sites/benny.dev/Homestead.yaml",
+		"/Users/nateritter/Sites/envelope.ninja.dev/Homestead.yaml",
+		"/Users/nateritter/Sites/benevolence-fund.dev/.env",
+		"/Users/nateritter/.composer/vendor/laravel/homestead/Vagrantfile",
+		"/Users/nateritter/.composer/vendor/laravel/homestead/scripts/homestead.rb",
+		"/Users/nateritter/Sites/benny.dev/Vagrantfile",
+		"/Users/nateritter/Sites/benevolence-fund.dev/Vagrantfile",
+		"/Users/nateritter/Sites/benny.dev/spark/install-stubs/resources/assets/js/app.js",
+		"/private/etc/hosts",
+		"/private/etc/apache2/users/nateritter.conf"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*,-*/bower/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*,-*/bower/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*,-*/bower/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*,-*/bower/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*,-.meteor/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*",
+			"",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/coverage/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*,-tests/_output/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-database/seeds/*",
+			"-tests/_output/*,-public/docs/*,-storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-app/database/seeds/*",
+			"-tests/_output/*,-public/docs/*,-app/storage/*,-node_modules/*,-tests/_data/*,-vendor/*,-output/codecept,-app/database/seeds/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"*.js,-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,-/Users/nateritter/Sites/eg.dev/app/database/seeds/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept",
+			"",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,~/Sites/eg.dev/codecep*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept,~/Sites/eg.dev/codecept",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*,-/Users/nateritter/Sites/eg.dev/output/codecept",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*,-/Users/nateritter/Sites/eg.dev/vendor/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*",
+			"-.meteor/*,-packages/*,-client/compatibility/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*,-/Users/nateritter/Sites/eg.dev/tests/_data/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*,-/Users/nateritter/Sites/eg.dev/node_modules/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-.meteor/*,-packages/*,-client/compatibility/*",
+			"-.meteor/*,-packages/*",
+			"-.meteor/*",
+			"-/Users/nateritter/Sites/eg.dev/tests/_output/*,-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-.meteor/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/tests/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs/*,-/Users/nateritter/Sites/eg.dev/tests/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs/*",
+			"-/Users/nateritter/Sites/eg.dev/public/docs",
+			"",
+			"~/Users/nateritter/Sites/eg.dev/app/*,-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"-/Users/nateritter/Sites/eg.dev/app/storage/*",
+			"/Users/nateritter/Sites/eg.dev/app,/Users/nateritter/Sites/eg.dev/public,/Users/nateritter/Sites/eg.dev/vendor",
+			"app",
+			"/app",
+			"",
+			"<img alt",
+			"",
+			"*_controller.php",
+			"",
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"",
+			"*.php",
+			"",
+			"*.less",
+			"",
+			"*.less",
+			"",
+			"*.js",
+			"",
+			"*.css",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.ct",
+			"*.ctp",
+			"",
+			"*.less",
+			"",
+			"*.less",
+			".less",
+			"",
+			"*.less",
+			".less",
+			"",
+			"*.ctp",
+			"",
+			"advanced_reports_controller.php",
+			"",
+			"move-files-commands-combined-1.txt",
+			"move-files-commands-combined-2.txt",
+			"",
+			"move-files-commands.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"....",
+			"providers",
+			"provider",
+			"VueTypeaheadTemplate",
+			"template",
+			"peopleHit",
+			"peopleTemp",
+			"items",
+			"peopleTempl",
+			"item",
+			"items",
+			"search",
+			"api/p",
+			"vue-strap.min",
+			"new RegExp('('+phrase",
+			"new RegExp",
+			".replace",
+			"new RegExp",
+			"function onGenericTrial",
+			"function subscribed",
+			"VerifyTeamIsSubscribed",
+			"teamSubscribed",
+			"font-awesome.min.css",
+			"fontawesome",
+			"peopleHit",
+			"Template",
+			"peopleHitCallback",
+			"peopleSearch",
+			"peopleSearchTemplate",
+			"asyncTemplate",
+			"replace",
+			"people",
+			"people/search/",
+			",,",
+			"vendor",
+			"people/",
+			"font-awesome.min.css",
+			"vue-strap",
+			"resources/assets/js",
+			"vue-strap",
+			"addPersonOption",
+			"function",
+			"alias on",
+			"alias on=",
+			"updateOption",
+			"radio",
+			"Add a new",
+			"person",
+			"Person",
+			"Add new",
+			"console.log",
+			"applications.create",
+			"statuses",
+			"select",
+			"Employment",
+			"Employmnet",
+			"workCard",
+			"[0]",
+			"span",
+			"ResBeat",
+			"CardsController",
+			"App\\Http\\Controllers\\Api",
+			"/cards/",
+			"showByPersonAndTitle",
+			"getFullNameById",
+			"lookup",
+			"People",
+			"person",
+			"Person",
+			"toggleApplic",
+			"Close",
+			"Cancel",
+			"toggleAppli",
+			"toggle",
+			"toggleApplicant",
+			"toggleApplicanttoggleApplicant",
+			"toggleApplicant",
+			"is the",
+			"button",
+			"toggleApplicant",
+			"data-person-id",
+			"ResB",
+			"Update Emp",
+			"applicant",
+			"person",
+			"people",
+			"Employment",
+			"toggleEmp",
+			"v-bind",
+			"prevent",
+			"Search",
+			"Name of the app",
+			"showEmployment: false,",
+			"Name of the",
+			"Neme of the",
+			"Naem of the",
+			"showEmployment",
+			"caret",
+			"btn-",
+			"\"#\"",
+			"People",
+			"Employment",
+			"Cancel",
+			"cancel",
+			"until",
+			"Update Emp",
+			"showUpdateEmploymentFields",
+			"showUnemployedFields",
+			"employmentUpdateOption",
+			"toggleEmploymentFields",
+			"showUpdateEmploymentFields",
+			"showUnemployedFields",
+			"showUpdateEmploymentForm",
+			"showUpdateEmployment",
+			"showUpdateEmploymentForm",
+			"v-model-",
+			"toggleEmploy",
+			"toggleemploy",
+			"toggleEmploymentForm",
+			"showUpdateEmploymentForm",
+			"showUpdateEmployment",
+			"until",
+			"4",
+			"address",
+			"company_name",
+			"completed_on",
+			"until",
+			"amount"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php require_once('includes/analytics.php'); ?>",
+			"\n    <link media=\"all\" type=\"text/css\" rel=\"stylesheet\" href=\"./register_thanks_files/bootstrap-slider.css\">\n    <link media=\"all\" type=\"text/css\" rel=\"stylesheet\" href=\"./register_thanks_files/main.css\">\n</head>",
+			"",
+			"require_once('lib/utility.php');",
+			"<li>",
+			";\n\n",
+			"\n",
+			"show",
+			"<img alt",
+			"<input class=\"donate_btn\" type=\"image\" src=\"https://www.paypalobjects.com/",
+			"AdvocareCommunity",
+			"ADVOCARECOMMUNITY",
+			"advocarecommunity",
+			"AdvocareCommunity",
+			"AdvoCare Community",
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=yes\">",
+			"<meta name=\"viewport\" content=\"width=960, initial-scale=1\">",
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"\"../../common-files/",
+			"\"../../flat-ui/",
+			"index.php",
+			"<title>nPruv<",
+			".php'",
+			".php\"",
+			".php'",
+			"<?php require 'includes/footer.html'; ?>",
+			"&copy; nPruv",
+			"<p class=\"pull-right\" style=\"line-height: 3em; font-size: .7em; margin-bottom: 0em;\">&copy nPruv</p>",
+			"&copy; nPruv",
+			"<?php require 'includes/meta.html'; ?>",
+			"Price Per Unit",
+			"Price Per Ounce",
+			"http://prreach.dev",
+			"Prediction &amp; Picks",
+			" !=0",
+			"; ",
+			"/* \"$_\"",
+			"shingles",
+			"uric acid",
+			"gout",
+			"depression",
+			"amnesia",
+			"cramps",
+			"fcl.almostperfectspace.dev",
+			"',\n  '",
+			"save filter set"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 314.0
+	},
+	"output.find_results":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "resbeat.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"person",
+				"app/Person.php"
+			],
+			[
+				"algolia",
+				"config/algolia.php"
+			],
+			[
+				"config/app",
+				"config/app.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"components/bootstr",
+				"resources/assets/js/components/bootstrap.js"
+			],
+			[
+				"spark-bootst",
+				"spark/resources/assets/js/spark-bootstrap.js"
+			],
+			[
+				"api/peoplecon",
+				"app/Http/Controllers/Api/PeopleController.php"
+			],
+			[
+				"peoplecon",
+				"app/Http/Controllers/PeopleController.php"
+			],
+			[
+				"api/people",
+				"app/Http/Controllers/Api/PeopleController.php"
+			],
+			[
+				"api",
+				"app/Http/api.php"
+			],
+			[
+				"laravel/spark/team",
+				"vendor/laravel/spark/src/Team.php"
+			],
+			[
+				"team",
+				"app/Team.php"
+			],
+			[
+				"sparkteam.php",
+				"spark/install-stubs/app/Providers/SparkTeamBillingServiceProvider.php"
+			],
+			[
+				"auth.php",
+				"config/auth.php"
+			],
+			[
+				"auth",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"homecontro",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"home.blade",
+				"spark/install-stubs/resources/views/home.blade.php"
+			],
+			[
+				"homecont",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"peoplecont",
+				"app/Http/Controllers/PeopleController.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"employ",
+				"resources/views/partials/applications/employment.blade.php"
+			],
+			[
+				"modalsappli",
+				"resources/views/partials/modals/applicant.blade.php"
+			],
+			[
+				"applicationsapplic",
+				"resources/views/partials/applications/application.blade.php"
+			],
+			[
+				"applicationsempl",
+				"resources/views/partials/applications/employment.blade.php"
+			],
+			[
+				"applciationspeopel",
+				"resources/views/partials/applications/people.blade.php"
+			],
+			[
+				"applications/create",
+				"resources/views/applications/create.blade.php"
+			],
+			[
+				"applications/appli",
+				"resources/views/partials/applications/application.blade.php"
+			],
+			[
+				"applicationcreate",
+				"resources/views/applications/create.blade.php"
+			],
+			[
+				"app.php",
+				"config/app.php"
+			],
+			[
+				"viewcompo",
+				"app/Providers/ViewComposerSerivceProvider.php"
+			],
+			[
+				"applicationscont",
+				"app/Http/Controllers/ApplicationsController.php"
+			],
+			[
+				"assistance",
+				"resources/views/partials/assistance.blade.php"
+			],
+			[
+				"employment",
+				"resources/views/partials/employment.blade.php"
+			],
+			[
+				"application.blad",
+				"resources/views/partials/application.blade.php"
+			],
+			[
+				"cardscont",
+				"app/Http/Controllers/Api/CardsController.php"
+			],
+			[
+				"card",
+				"app/Card.php"
+			],
+			[
+				"card.p",
+				"app/Card.php"
+			],
+			[
+				"cardscon",
+				"app/Http/Controllers/CardsController.php"
+			],
+			[
+				"card.",
+				"app/Card.php"
+			],
+			[
+				"person.php",
+				"app/Person.php"
+			],
+			[
+				"addcardperson",
+				"database/migrations/2016_04_29_232359_add_default_field_to_card_person_table.php"
+			],
+			[
+				"card.php",
+				"app/Card.php"
+			],
+			[
+				"cardstal",
+				"database/migrations/2016_04_18_234452_create_cards_table.php"
+			],
+			[
+				"home",
+				"resources/views/home.blade.php"
+			],
+			[
+				"home.js",
+				"resources/assets/js/components/home.js"
+			],
+			[
+				"app.les",
+				"resources/assets/less/app.less"
+			],
+			[
+				"layouts/",
+				"resources/views/vendor/spark/layouts/app.blade.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"bower.json",
+				"bower_components/bootstrap/bower.json"
+			],
+			[
+				"user.blade.php",
+				"resources/views/vendor/spark/nav/user.blade.php"
+			],
+			[
+				"nav/blade/user",
+				"vendor/laravel/spark/resources/views/nav/blade/user.blade.php"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"modalappli",
+				"resources/views/partials/modals/applicant.blade.php"
+			],
+			[
+				"createblade",
+				"resources/views/people/create.blade.php"
+			],
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"people/create",
+				"resources/views/people/create.blade.php"
+			],
+			[
+				"app.js",
+				"resources/assets/js/app.js"
+			],
+			[
+				"app.js.ma",
+				"public/js/app.js.map"
+			],
+			[
+				"layouts.app",
+				"resources/views/vendor/spark/layouts/app.blade.php"
+			],
+			[
+				"api.php",
+				"app/Http/api.php"
+			],
+			[
+				"vue-typea",
+				"node_modules.bak/vue-strap/src/Typeahead.vue"
+			],
+			[
+				"partials/",
+				"resources/views/partials/search.blade.php"
+			],
+			[
+				"peoplecreate",
+				"resources/views/people/create.blade.php"
+			],
+			[
+				"applicationscreat",
+				"resources/views/applications/create.blade.php"
+			],
+			[
+				"app.less",
+				"resources/assets/less/app.less"
+			],
+			[
+				"people/ind",
+				"resources/views/people/index.blade.php"
+			],
+			[
+				"search",
+				"resources/views/people/search.blade.php"
+			],
+			[
+				"homecontr",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"peoplecontr",
+				"app/Http/Controllers/PeopleController.php"
+			],
+			[
+				"search.blad",
+				"resources/views/people/search.blade.php"
+			],
+			[
+				"layoutapp",
+				"spark/resources/views/layouts/app.blade.php"
+			],
+			[
+				"layout",
+				"spark/resources/views/layouts/app.blade.php"
+			],
+			[
+				"search.blade",
+				"resources/views/partials/search.blade.php"
+			],
+			[
+				"applications/inde",
+				"resources/views/applications/index.blade.php"
+			],
+			[
+				"people/",
+				"resources/views/people/search.blade.php"
+			],
+			[
+				"people/index.blade",
+				"resources/views/people/index.blade.php"
+			],
+			[
+				"home.blad",
+				"resources/views/home.blade.php"
+			],
+			[
+				"vertical",
+				"resources/views/partials/nav/vertical.blade.php"
+			],
+			[
+				"peoplecontro",
+				"app/Http/Controllers/PeopleController.php"
+			],
+			[
+				"nav/blade/user.blade",
+				"spark/resources/views/nav/blade/user.blade.php"
+			],
+			[
+				"settings/teams.blade",
+				"resources/views/vendor/spark/settings/teams.blade.php"
+			],
+			[
+				"nav/teams.blade",
+				"resources/views/vendor/spark/nav/teams.blade.php"
+			],
+			[
+				"teams.blade.php",
+				"spark/resources/views/nav/teams.blade.php"
+			],
+			[
+				"resources/views/nav/user-left.blade.php",
+				"resources/views/vendor/spark/nav/user-left.blade.php"
+			],
+			[
+				"nav/user.blade",
+				"spark/resources/views/nav/user.blade.php"
+			],
+			[
+				"layouts/app.blade.php",
+				"spark/resources/views/layouts/app.blade.php"
+			],
+			[
+				"nav/guest.blade",
+				"spark/resources/views/nav/guest.blade.php"
+			],
+			[
+				"app.blade.php",
+				"resources/views/vendor/spark/layouts/app.blade.php"
+			],
+			[
+				"itmed",
+				"models/i_t_media.php"
+			],
+			[
+				"common.js",
+				"webroot/js/pings/common.js"
+			],
+			[
+				"it",
+				"models/i_t_media.php"
+			],
+			[
+				"itme",
+				"models/i_t_media.php"
+			],
+			[
+				"consoleker",
+				"app/Console/Kernel.php"
+			],
+			[
+				"sparkservic",
+				"app/Providers/SparkServiceProvider.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"application",
+				"app/ApplicationPersonRelationship.php"
+			],
+			[
+				"program",
+				"app/Program.php"
+			],
+			[
+				"status",
+				"app/Status.php"
+			],
+			[
+				"relationship",
+				"app/Relationship.php"
+			],
+			[
+				"alias",
+				"app/Alias.php"
+			],
+			[
+				"cardtype",
+				"app/CardType.php"
+			],
+			[
+				"databaseseed",
+				"database/seeds/DatabaseSeeder.php"
+			],
+			[
+				"compose",
+				"composer.json"
+			],
+			[
+				"sparkser",
+				"app/Providers/SparkServiceProvider.php"
+			],
+			[
+				"composer.json",
+				"composer.json"
+			],
+			[
+				"applicationstatus",
+				"database/migrations/2016_04_19_003954_create_application_status_table.php"
+			],
+			[
+				"createalia",
+				"database/migrations/2016_04_19_005011_create_aliases_table.php"
+			],
+			[
+				"createapplicationstatus",
+				"database/migrations/2016_04_19_003954_create_application_status_table.php"
+			],
+			[
+				"createapplicationprogr",
+				"database/migrations/2016_04_19_003737_create_application_program_table.php"
+			],
+			[
+				"applicationperson",
+				"database/migrations/2016_04_19_003554_create_application_person_relationship_table.php"
+			],
+			[
+				"createcardperson",
+				"database/migrations/2016_04_19_002156_create_card_person_table.php"
+			],
+			[
+				"createapplications",
+				"database/migrations/2016_04_18_235031_create_applications_table.php"
+			],
+			[
+				"createcards",
+				"database/migrations/2016_04_18_234452_create_cards_table.php"
+			],
+			[
+				"card_types",
+				"database/migrations/2016_04_18_234138_create_card_types_table.php"
+			],
+			[
+				"createpeople",
+				"database/migrations/2016_04_18_230529_create_people_table.php"
+			],
+			[
+				"createrelationship",
+				"database/migrations/2016_04_18_230445_create_relationships_table.php"
+			],
+			[
+				"createprograms",
+				"database/migrations/2016_04_18_230354_create_programs_table.php"
+			],
+			[
+				"createstatus",
+				"database/migrations/2016_04_18_230249_create_statuses_table.php"
+			],
+			[
+				"verifyuserhasteam",
+				"spark/src/Http/Middleware/VerifyUserHasTeam.php"
+			],
+			[
+				"user.php",
+				"app/User.php"
+			],
+			[
+				"team.",
+				"app/Team.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"spark",
+				"app/Providers/SparkServiceProvider.php"
+			],
+			[
+				"term",
+				"terms.md"
+			],
+			[
+				".env",
+				".env"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

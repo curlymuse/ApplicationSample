@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Condition.php">
+    <totals>
+      <lines total="23" comments="11" code="12" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Condition" start="7" executable="0" executed="0" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Conditions"/>
+      <method name="holds" signature="holds()" start="22" end="22" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+  </file>
+</phpunit>

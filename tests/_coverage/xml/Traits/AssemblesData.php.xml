@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AssemblesData.php">
+    <totals>
+      <lines total="22" comments="7" code="15" executable="1" executed="1" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="0" tested="1" percent=""/>
+      <traits count="1" tested="0" percent="0.00%"/>
+    </totals>
+    <trait name="AssemblesData" start="9" executable="1" executed="1" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Traits"/>
+      <method name="assemble" signature="assemble(Assembler $assembler)" start="18" end="21" crap="1" executable="1" executed="1" coverage="100"/>
+    </trait>
+    <coverage>
+      <line nr="20">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

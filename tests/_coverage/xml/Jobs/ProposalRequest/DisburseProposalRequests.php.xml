@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="DisburseProposalRequests.php">
+    <totals>
+      <lines total="60" comments="17" code="43" executable="14" executed="14" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="DisburseProposalRequests" start="11" executable="14" executed="14" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\ProposalRequest"/>
+      <method name="__construct" signature="__construct($requestId, $hotels = [])" start="31" end="35" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle()" start="42" end="59" crap="2" executable="11" executed="11" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="33">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\DisburseProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="34">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\DisburseProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="35">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\DisburseProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="44">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="45">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="46">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="47">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="48">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="49">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="50">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="54">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="55">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="56">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="59">
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

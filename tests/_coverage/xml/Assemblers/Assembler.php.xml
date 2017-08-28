@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Assembler.php">
+    <totals>
+      <lines total="52" comments="24" code="28" executable="6" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Assembler" start="8" executable="6" executed="0" crap="20">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Assemblers"/>
+      <method name="put" signature="put($key, $value)" start="23" end="26" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="push" signature="push($key, $value)" start="34" end="37" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="only" signature="only($keys)" start="46" end="51" crap="6" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

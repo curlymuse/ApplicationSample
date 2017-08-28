@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalAuthOrQueryString.php">
+    <totals>
+      <lines total="48" comments="15" code="33" executable="8" executed="7" percent="87.50%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalAuthOrQueryString" start="9" executable="8" executed="7" crap="5.05">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Middleware"/>
+      <method name="__construct" signature="__construct(ProposalRepositoryInterface $proposalRepo)" start="20" end="23" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle($request, Closure $next, $guard = null)" start="34" end="47" crap="4.07" executable="6" executed="5" coverage="83.333333333333"/>
+    </class>
+    <coverage>
+      <line nr="22">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+      </line>
+      <line nr="46">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

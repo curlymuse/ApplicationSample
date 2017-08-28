@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalRequest.php">
+    <totals>
+      <lines total="87" comments="31" code="56" executable="5" executed="5" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalRequest" start="7" executable="5" executed="5" crap="7">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="client" signature="client()" start="33" end="36" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="contracts" signature="contracts()" start="41" end="44" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="event" signature="event()" start="49" end="52" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="notes" signature="notes()" start="57" end="60" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="planner" signature="planner()" start="65" end="68" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="proposals" signature="proposals()" start="73" end="76" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="usersManaging" signature="usersManaging()" start="81" end="85" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="51">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="75">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="83">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="84">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UpdateLicenseeProfile.php">
+    <totals>
+      <lines total="70" comments="22" code="48" executable="13" executed="13" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UpdateLicenseeProfile" start="12" executable="13" executed="13" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Licensee"/>
+      <method name="__construct" signature="__construct($licenseeId, $attributes = [])" start="43" end="47" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(LicenseeRepositoryInterface $licenseeRepo)" start="54" end="69" crap="1" executable="10" executed="10" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="45">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="46">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="56">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="57">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="60">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+      <line nr="69">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Jobs\Licensee\UpdateLicenseeProfileTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

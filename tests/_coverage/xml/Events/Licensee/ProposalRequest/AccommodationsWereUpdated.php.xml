@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AccommodationsWereUpdated.php">
+    <totals>
+      <lines total="60" comments="23" code="37" executable="6" executed="3" percent="50.00%"/>
+      <methods count="4" tested="1" percent="25.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="AccommodationsWereUpdated" start="9" executable="6" executed="3" crap="6.00">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Events\Licensee\ProposalRequest"/>
+      <method name="__construct" signature="__construct($requestId, $accommodations = [])" start="29" end="33" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="broadcastOn" signature="broadcastOn()" start="40" end="43" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getRequestId" signature="getRequestId()" start="48" end="51" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getAccommodations" signature="getAccommodations()" start="56" end="59" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="31">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+      </line>
+      <line nr="33">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

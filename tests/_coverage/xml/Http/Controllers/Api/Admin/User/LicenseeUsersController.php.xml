@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="LicenseeUsersController.php">
+    <totals>
+      <lines total="81" comments="25" code="56" executable="14" executed="14" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="LicenseeUsersController" start="14" executable="14" executed="14" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Admin\User"/>
+      <method name="__construct" signature="__construct(&#10;        UserRepositoryInterface $userRepo,&#10;        UserTransformer $transformer&#10;    )" start="31" end="38" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="index" signature="index($licenseeId)" start="47" end="56" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="store" signature="store(CreateLicenseeUserRequest $request, $licenseeId)" start="66" end="80" crap="1" executable="8" executed="8" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+      </line>
+      <line nr="55">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+      </line>
+      <line nr="68">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="69">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="70">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="72">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="74">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="75">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+      <line nr="79">
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

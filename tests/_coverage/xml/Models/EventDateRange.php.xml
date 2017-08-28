@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="EventDateRange.php">
+    <totals>
+      <lines total="73" comments="25" code="48" executable="2" executed="2" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="EventDateRange" start="7" executable="2" executed="2" crap="5">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="contracts" signature="contracts()" start="37" end="40" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="event" signature="event()" start="45" end="48" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="proposals" signature="proposals()" start="53" end="56" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="roomRequestDates" signature="roomRequestDates()" start="61" end="64" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="spaceRequests" signature="spaceRequests()" start="69" end="72" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="47">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

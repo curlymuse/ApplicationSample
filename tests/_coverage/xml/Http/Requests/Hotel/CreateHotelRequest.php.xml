@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateHotelRequest.php">
+    <totals>
+      <lines total="30" comments="12" code="18" executable="2" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateHotelRequest" start="7" executable="2" executed="0" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Requests\Hotel"/>
+      <method name="authorize" signature="authorize()" start="14" end="17" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="rules" signature="rules()" start="24" end="29" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

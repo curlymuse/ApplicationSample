@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="LicenseesController.php">
+    <totals>
+      <lines total="89" comments="29" code="60" executable="13" executed="13" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="LicenseesController" start="14" executable="13" executed="13" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Admin"/>
+      <method name="__construct" signature="__construct(&#10;        LicenseeRepositoryInterface $licenseeRepo,&#10;        LicenseeTransformer $transformer&#10;    )" start="31" end="38" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="index" signature="index()" start="45" end="52" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="show" signature="show($licenseeId)" start="61" end="70" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="store" signature="store(CreateLicenseeRequest $request)" start="79" end="88" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+      </line>
+      <line nr="51">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_index"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+      </line>
+      <line nr="69">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="83">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+      <line nr="87">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Proposal.php">
+    <totals>
+      <lines total="72" comments="27" code="45" executable="4" executed="4" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Proposal" start="7" executable="4" executed="4" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="dateRanges" signature="dateRanges()" start="43" end="46" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="hotel" signature="hotel()" start="51" end="54" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="proposalRequest" signature="proposalRequest()" start="59" end="62" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="usersReceived" signature="usersReceived()" start="67" end="71" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="69">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Models\Test::test_contract_relationship"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="70">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Models\Test::test_contract_relationship"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

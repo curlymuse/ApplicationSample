@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateContractFromProposal.php">
+    <totals>
+      <lines total="78" comments="19" code="59" executable="13" executed="13" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateContractFromProposal" start="15" executable="13" executed="13" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Contract"/>
+      <method name="__construct" signature="__construct($proposalId)" start="34" end="37" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle(&#10;        ProposalRepositoryInterface $proposalRepo,&#10;        ContractRepositoryInterface $contractRepo,&#10;        RoomSetRepositoryInterface $roomRepo&#10;    )" start="44" end="69" crap="2" executable="10" executed="10" coverage="100"/>
+      <method name="getProposal" signature="getProposal()" start="74" end="77" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="36">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="56">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="57">
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="60">
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="69">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+      </line>
+      <line nr="76">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

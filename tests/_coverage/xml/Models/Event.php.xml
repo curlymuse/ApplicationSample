@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Event.php">
+    <totals>
+      <lines total="42" comments="14" code="28" executable="3" executed="3" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Event" start="7" executable="3" executed="3" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="dateRanges" signature="dateRanges()" start="22" end="25" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="licensee" signature="licensee()" start="30" end="33" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="proposalRequests" signature="proposalRequests()" start="38" end="41" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="24">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

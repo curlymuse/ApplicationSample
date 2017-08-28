@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Job.php">
+    <totals>
+      <lines total="45" comments="25" code="20" executable="5" executed="4" percent="80.00%"/>
+      <methods count="1" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Job" start="7" executable="5" executed="4" crap="2.03">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs"/>
+      <method name="verifyCompliance" signature="verifyCompliance()" start="29" end="44" crap="2.03" executable="5" executed="4" coverage="80"/>
+    </class>
+    <coverage>
+      <line nr="32">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateFoodBeverageTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateFoodBeverageTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateFoodBeverageTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\Contract\CreateContractFromProposalTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\InitializeProposalRequestTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_no_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateAccommodationsTest::test_handle_with_existing_event_date_range"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateFoodBeverageTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

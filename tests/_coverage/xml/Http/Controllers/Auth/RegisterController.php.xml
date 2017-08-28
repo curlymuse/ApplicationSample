@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RegisterController.php">
+    <totals>
+      <lines total="71" comments="32" code="39" executable="8" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RegisterController" start="10" executable="8" executed="0" crap="12">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Auth"/>
+      <method name="__construct" signature="__construct()" start="37" end="40" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="validator" signature="validator(array $data)" start="48" end="55" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="create" signature="create(array $data)" start="63" end="70" crap="2" executable="4" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="EventsController.php">
+    <totals>
+      <lines total="45" comments="20" code="25" executable="3" executed="3" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="EventsController" start="9" executable="3" executed="3" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers"/>
+      <method name="home" signature="home()" start="18" end="21" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="show" signature="show($eventId)" start="29" end="33" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="create" signature="create()" start="40" end="44" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="20">
+        <covered by="Tests\Unit\Controllers\EventsControllerTest::test_home"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Unit\Controllers\EventsControllerTest::test_show"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Unit\Controllers\EventsControllerTest::test_create"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

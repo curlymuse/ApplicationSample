@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="EventDateRangeBelongsToProposalRequest.php">
+    <totals>
+      <lines total="43" comments="13" code="30" executable="7" executed="5" percent="71.43%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="EventDateRangeBelongsToProposalRequest" start="9" executable="7" executed="5" crap="3.21">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Middleware\BelongsTo"/>
+      <method name="__construct" signature="__construct(ProposalRequestRepositoryInterface $requestRepo)" start="19" end="22" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle($request, Closure $next)" start="31" end="42" crap="2.26" executable="5" executed="3" coverage="60"/>
+    </class>
+    <coverage>
+      <line nr="21">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="33">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

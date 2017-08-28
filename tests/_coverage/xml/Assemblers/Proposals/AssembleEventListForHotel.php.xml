@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AssembleEventListForHotel.php">
+    <totals>
+      <lines total="183" comments="49" code="134" executable="3" executed="3" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="AssembleEventListForHotel" start="14" executable="3" executed="3" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Assemblers\Proposals"/>
+      <method name="__construct" signature="__construct($hotelId, $userId)" start="55" end="59" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(&#10;        ProposalRepositoryInterface $proposalRepo,&#10;        ContractRepositoryInterface $contractRepo,&#10;        ProposalRequestRepositoryInterface $proposalRequestRepo,&#10;        ProposalOrContractToEventTransformer $eventTransformer,&#10;        ProposalRequestTransformer $proposalRequestTransformer&#10;    )" start="61" end="79" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="putEvents" signature="putEvents()" start="88" end="113" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="anonymous function" signature="anonymous function ($proposal) use ($contracts)" start="95" end="100" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="putToDoItems" signature="putToDoItems()" start="120" end="163" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="putReminders" signature="putReminders()" start="171" end="182" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="57">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

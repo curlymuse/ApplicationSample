@@ -1,0 +1,28 @@
+<?php
+
+namespace Tests\Unit\ControllersDummyRelativeNamespaceWithOptionalSlash;
+
+use Tests\TestCase;
+
+/**
+ * Class DummyClassTest
+ *
+ * @coversBaseClass \App\Http\Controllers\DummyRelativeClass
+ */
+class DummyClassTest extends TestCase
+{
+    /**
+     * @var \Faker\Generator
+     */
+    protected $faker;
+
+    /**
+     * @before
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->faker = \Faker\Factory::create();
+    }
+}

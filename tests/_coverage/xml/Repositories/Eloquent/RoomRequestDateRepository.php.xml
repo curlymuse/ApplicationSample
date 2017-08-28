@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RoomRequestDateRepository.php">
+    <totals>
+      <lines total="35" comments="11" code="24" executable="9" executed="9" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RoomRequestDateRepository" start="8" executable="9" executed="9" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="syncForEventDateRange" signature="syncForEventDateRange($eventDateRangeId, $roomRequestDates = [])" start="21" end="34" crap="2" executable="9" executed="9" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="23">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="24">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="31">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="34">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ClientsController.php">
+    <totals>
+      <lines total="37" comments="9" code="28" executable="5" executed="5" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ClientsController" start="11" executable="5" executed="5" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee"/>
+      <method name="store" signature="store(Request $request, $googleId)" start="22" end="36" crap="1" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="24">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ClientsControllerTest::test_store"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ClientsControllerTest::test_store"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ClientsControllerTest::test_store"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ClientsControllerTest::test_store"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ClientsControllerTest::test_store"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

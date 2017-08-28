@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ContractsController.php">
+    <totals>
+      <lines total="54" comments="24" code="30" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ContractsController" start="9" executable="0" executed="0" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers"/>
+      <method name="show" signature="show($id)" start="17" end="20" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="upload" signature="upload($id)" start="28" end="31" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="change" signature="change($id)" start="39" end="42" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="decline" signature="decline($id)" start="50" end="53" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+  </file>
+</phpunit>

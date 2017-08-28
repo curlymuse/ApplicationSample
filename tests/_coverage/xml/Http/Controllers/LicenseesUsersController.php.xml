@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="LicenseesUsersController.php">
+    <totals>
+      <lines total="19" comments="5" code="14" executable="1" executed="1" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="LicenseesUsersController" start="8" executable="1" executed="1" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers"/>
+      <method name="create" signature="create($id)" start="15" end="18" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="17">
+        <covered by="Tests\Unit\Controllers\LicenseesUsersControllerTest::test_create"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalRequestRepository.php">
+    <totals>
+      <lines total="127" comments="47" code="80" executable="32" executed="26" percent="81.25%"/>
+      <methods count="7" tested="5" percent="71.43%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalRequestRepository" start="10" executable="32" executed="26" crap="7.32">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="storeForEvent" signature="storeForEvent($eventId, $attributes = [])" start="20" end="29" crap="1" executable="6" executed="6" coverage="100"/>
+      <method name="hasProposals" signature="hasProposals($requestId)" start="38" end="45" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="anonymous function" signature="anonymous function ($query) use ($hotelId)" start="119" end="123" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="addUser" signature="addUser($requestId, $userId, $contactInfo = [])" start="57" end="64" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="allForHotel" signature="allForHotel($hotelId)" start="73" end="84" crap="1" executable="7" executed="7" coverage="100"/>
+      <method name="allForLicensee" signature="allForLicensee($licenseeId)" start="93" end="102" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="withUpcomingCutoffDatesForHotel" signature="withUpcomingCutoffDatesForHotel($hotelId)" start="112" end="126" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="22">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="24">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+      </line>
+      <line nr="59">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="60">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="75">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="78">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="83">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="95">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="100">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="101">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="98">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="77">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+      <line nr="80">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

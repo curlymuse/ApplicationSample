@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalRequestsController.php">
+    <totals>
+      <lines total="92" comments="29" code="63" executable="13" executed="13" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalRequestsController" start="14" executable="13" executed="13" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee"/>
+      <method name="__construct" signature="__construct(&#10;        ProposalRequestRepositoryInterface $proposalRequestRepo,&#10;        ProposalRequestTransformer $transformer&#10;    )" start="31" end="38" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="index" signature="index()" start="45" end="54" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="show" signature="show($requestId)" start="63" end="72" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="store" signature="store(CreateProposalRequestRequest $request)" start="81" end="91" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="36">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="83">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="84">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="86">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="90">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_index"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

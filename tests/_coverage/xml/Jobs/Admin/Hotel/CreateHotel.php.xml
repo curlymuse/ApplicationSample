@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateHotel.php">
+    <totals>
+      <lines total="46" comments="13" code="33" executable="7" executed="7" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateHotel" start="12" executable="7" executed="7" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Admin\Hotel"/>
+      <method name="__construct" signature="__construct($attributes = [])" start="26" end="29" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle(HotelRepositoryInterface $hotelRepo)" start="36" end="45" crap="1" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="41">
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Jobs\Admin\Hotel\CreateHotelTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

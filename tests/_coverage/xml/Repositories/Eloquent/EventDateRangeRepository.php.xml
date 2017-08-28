@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="EventDateRangeRepository.php">
+    <totals>
+      <lines total="24" comments="8" code="16" executable="3" executed="3" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="EventDateRangeRepository" start="7" executable="3" executed="3" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="storeForEvent" signature="storeForEvent($eventId, $attributes)" start="17" end="23" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="19">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\EventDateRangeRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="20">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\EventDateRangeRepositoryTest::test_storeForEvent"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\EventDateRangeRepositoryTest::test_storeForEvent"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

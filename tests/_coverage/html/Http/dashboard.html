@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/nateritter/Sites/resbeat/app/Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/Users/nateritter/Sites/resbeat/app</a></li>
+        <li><a href="index.html">Http</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/Auth/ForgotPasswordController.php.html#8">ForgotPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/LoginController.php.html#8">LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/RegisterController.php.html#10">RegisterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/ResetPasswordController.php.html#8">ResetPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#8">RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/UserIs/UserHasPassword.php.html#10">UserHasPassword</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Hotel/CreateHotelRequest.php.html#7">CreateHotelRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/CanAccess/CanAccess.php.html#8">CanAccess</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/EventDateRangeBelongsToProposalRequest.php.html#9">EventDateRangeBelongsToProposalRequest</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Middleware/ObjectExists/ObjectExists.php.html#9">ObjectExists</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Middleware/RequiresActiveHotel.php.html#9">RequiresActiveHotel</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/BelongsTo.php.html#10">BelongsTo</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Middleware/ProposalAuthOrQueryString.php.html#9">ProposalAuthOrQueryString</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Middleware/UserIs/UserHasPassword.php.html#10">UserHasPassword</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#8">RedirectIfAuthenticated</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/ProposalAuthOrQueryString.php.html#9">ProposalAuthOrQueryString</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Middleware/CanAccess/CanAccess.php.html#8">CanAccess</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/EventDateRangeBelongsToProposalRequest.php.html#9">EventDateRangeBelongsToProposalRequest</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Middleware/ObjectExists/ObjectExists.php.html#9">ObjectExists</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Middleware/RequiresActiveHotel.php.html#9">RequiresActiveHotel</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/BelongsTo.php.html#10">BelongsTo</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/Auth/ForgotPasswordController.php.html#28"><abbr title="ForgotPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/LoginController.php.html#35"><abbr title="LoginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Hotel/CreateHotelRequest.php.html#14"><abbr title="CreateHotelRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/UserIs/UserHasPassword.php.html#34"><abbr title="UserHasPassword::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/UserIs/UserHasPassword.php.html#21"><abbr title="UserHasPassword::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Hotel/CreateHotelRequest.php.html#24"><abbr title="CreateHotelRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/RegisterController.php.html#63"><abbr title="RegisterController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/ResetPasswordController.php.html#28"><abbr title="ResetPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/RegisterController.php.html#48"><abbr title="RegisterController::validator">validator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/Auth/RegisterController.php.html#37"><abbr title="RegisterController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/EventDateRangeBelongsToProposalRequest.php.html#31"><abbr title="EventDateRangeBelongsToProposalRequest::handle">handle</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Middleware/ObjectExists/ObjectExists.php.html#61"><abbr title="ObjectExists::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Middleware/CanAccess/CanAccess.php.html#23"><abbr title="CanAccess::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Middleware/RequiresActiveHotel.php.html#34"><abbr title="RequiresActiveHotel::handle">handle</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/BelongsTo.php.html#76"><abbr title="BelongsTo::handle">handle</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Middleware/ProposalAuthOrQueryString.php.html#34"><abbr title="ProposalAuthOrQueryString::handle">handle</abbr></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/UserIs/UserHasPassword.php.html#34"><abbr title="UserHasPassword::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/ProposalAuthOrQueryString.php.html#34"><abbr title="ProposalAuthOrQueryString::handle">handle</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/EventDateRangeBelongsToProposalRequest.php.html#31"><abbr title="EventDateRangeBelongsToProposalRequest::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Middleware/CanAccess/CanAccess.php.html#23"><abbr title="CanAccess::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Middleware/ObjectExists/ObjectExists.php.html#61"><abbr title="ObjectExists::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Middleware/RequiresActiveHotel.php.html#34"><abbr title="RequiresActiveHotel::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Middleware/BelongsTo/BelongsTo.php.html#76"><abbr title="BelongsTo::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.0</a> using <a href="https://secure.php.net/" target="_top">PHP 7.0.10</a> with <a href="https://xdebug.org/">Xdebug 2.4.0</a> and <a href="https://phpunit.de/">PHPUnit 5.4.4</a> at Thu Sep 22 5:44:24 UTC 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.min.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,1,1,4,0,58], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,3,1,2,0,104], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"Controllers\/LicenseesController.php.html#8\">LicenseesController<\/a>"],[100,3,"<a href=\"Controllers\/Api\/Admin\/User\/LicenseeUsersController.php.html#14\">LicenseeUsersController<\/a>"],[100,3,"<a href=\"Controllers\/Api\/Admin\/UsersController.php.html#13\">UsersController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalSubmissionsController.php.html#11\">ProposalSubmissionsController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalUsersController.php.html#13\">ProposalUsersController<\/a>"],[100,6,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#15\">ProposalsController<\/a>"],[100,2,"<a href=\"Controllers\/Api\/Hotel\/UserConfirmationsController.php.html#15\">UserConfirmationsController<\/a>"],[100,6,"<a href=\"Controllers\/Api\/HotelsController.php.html#17\">HotelsController<\/a>"],[100,2,"<a href=\"Controllers\/Api\/Licensee\/ClientUsersController.php.html#12\">ClientUsersController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ClientsController.php.html#11\">ClientsController<\/a>"],[100,4,"<a href=\"Controllers\/ContractsController.php.html#9\">ContractsController<\/a>"],[100,3,"<a href=\"Controllers\/Api\/Licensee\/LicenseeProfilesController.php.html#14\">LicenseeProfilesController<\/a>"],[100,2,"<a href=\"Controllers\/Api\/Licensee\/PlannerUsersController.php.html#12\">PlannerUsersController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/PlannersController.php.html#11\">PlannersController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/AccommodationsController.php.html#12\">AccommodationsController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/DisburseProposalRequestsController.php.html#12\">DisburseProposalRequestsController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/EventDetailsController.php.html#12\">EventDetailsController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/FoodBeverageController.php.html#12\">FoodBeverageController<\/a>"],[100,5,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#17\">NotesController<\/a>"],[100,2,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/ProposalContactsController.php.html#11\">ProposalContactsController<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/SpacesController.php.html#12\">SpacesController<\/a>"],[100,2,"<a href=\"Controllers\/ProposalRequestsController.php.html#8\">ProposalRequestsController<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/ForgotPasswordController.php.html#8\">ForgotPasswordController<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/LoginController.php.html#8\">LoginController<\/a>"],[0,3,"<a href=\"Controllers\/Auth\/RegisterController.php.html#10\">RegisterController<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/ResetPasswordController.php.html#8\">ResetPasswordController<\/a>"],[100,0,"<a href=\"Controllers\/Controller.php.html#11\">Controller<\/a>"],[100,3,"<a href=\"Controllers\/EventsController.php.html#9\">EventsController<\/a>"],[100,2,"<a href=\"Controllers\/HomeController.php.html#7\">HomeController<\/a>"],[100,1,"<a href=\"Controllers\/HoteliersController.php.html#10\">HoteliersController<\/a>"],[100,1,"<a href=\"Controllers\/LicenseesUsersController.php.html#8\">LicenseesUsersController<\/a>"],[100,4,"<a href=\"Controllers\/RfpsController.php.html#9\">RfpsController<\/a>"],[100,1,"<a href=\"Controllers\/WelcomeController.php.html#7\">WelcomeController<\/a>"],[100,0,"<a href=\"Kernel.php.html#23\">Kernel<\/a>"],[87.5,3,"<a href=\"Middleware\/BelongsTo\/BelongsTo.php.html#10\">BelongsTo<\/a>"],[71.428571428571,3,"<a href=\"Middleware\/BelongsTo\/EventDateRangeBelongsToProposalRequest.php.html#9\">EventDateRangeBelongsToProposalRequest<\/a>"],[100,0,"<a href=\"Middleware\/BelongsTo\/NoteBelongsToProposalRequest.php.html#7\">NoteBelongsToProposalRequest<\/a>"],[66.666666666667,3,"<a href=\"Middleware\/CanAccess\/CanAccess.php.html#8\">CanAccess<\/a>"],[100,3,"<a href=\"Middleware\/CanAccess\/HotelUserCanAccessProposal.php.html#9\">HotelUserCanAccessProposal<\/a>"],[100,0,"<a href=\"Middleware\/EncryptCookies.php.html#7\">EncryptCookies<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/EventDateRangeExists.php.html#8\">EventDateRangeExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/HotelExists.php.html#8\">HotelExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/LicenseeExists.php.html#8\">LicenseeExists<\/a>"],[80,3,"<a href=\"Middleware\/ObjectExists\/ObjectExists.php.html#9\">ObjectExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/ProposalExists.php.html#8\">ProposalExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/ProposalRequestExists.php.html#8\">ProposalRequestExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/RequestNoteExists.php.html#8\">RequestNoteExists<\/a>"],[100,0,"<a href=\"Middleware\/ObjectExists\/UserExists.php.html#8\">UserExists<\/a>"],[87.5,5,"<a href=\"Middleware\/ProposalAuthOrQueryString.php.html#9\">ProposalAuthOrQueryString<\/a>"],[0,2,"<a href=\"Middleware\/RedirectIfAuthenticated.php.html#8\">RedirectIfAuthenticated<\/a>"],[83.333333333333,3,"<a href=\"Middleware\/RequiresActiveHotel.php.html#9\">RequiresActiveHotel<\/a>"],[100,3,"<a href=\"Middleware\/UserIs\/UserHasNoPassword.php.html#10\">UserHasNoPassword<\/a>"],[0,3,"<a href=\"Middleware\/UserIs\/UserHasPassword.php.html#10\">UserHasPassword<\/a>"],[100,0,"<a href=\"Middleware\/VerifyCsrfToken.php.html#7\">VerifyCsrfToken<\/a>"],[0,2,"<a href=\"Requests\/Hotel\/CreateHotelRequest.php.html#7\">CreateHotelRequest<\/a>"],[100,2,"<a href=\"Requests\/Hotel\/UpdateHotelRequest.php.html#7\">UpdateHotelRequest<\/a>"],[100,2,"<a href=\"Requests\/Licensee\/CreateLicenseeRequest.php.html#7\">CreateLicenseeRequest<\/a>"],[100,2,"<a href=\"Requests\/Licensee\/UpdateLicenseeProfileRequest.php.html#7\">UpdateLicenseeProfileRequest<\/a>"],[100,2,"<a href=\"Requests\/Proposal\/UpdateProposalRequest.php.html#7\">UpdateProposalRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/CreateProposalRequestRequest.php.html#7\">CreateProposalRequestRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/DisburseProposalRequestsRequest.php.html#7\">DisburseProposalRequestsRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/UpdateAccommodationsRequest.php.html#7\">UpdateAccommodationsRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/UpdateEventDetailsRequest.php.html#7\">UpdateEventDetailsRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/UpdateFoodBeverageRequest.php.html#7\">UpdateFoodBeverageRequest<\/a>"],[100,2,"<a href=\"Requests\/ProposalRequest\/UpdateSpacesRequest.php.html#7\">UpdateSpacesRequest<\/a>"],[100,2,"<a href=\"Requests\/RequestNote\/CreateRequestNoteRequest.php.html#7\">CreateRequestNoteRequest<\/a>"],[100,2,"<a href=\"Requests\/RequestNote\/UpdateRequestNoteRequest.php.html#7\">UpdateRequestNoteRequest<\/a>"],[100,2,"<a href=\"Requests\/Session\/AuthenticateExistingHotelUserRequest.php.html#7\">AuthenticateExistingHotelUserRequest<\/a>"],[100,2,"<a href=\"Requests\/Session\/AuthenticateNewHotelUserRequest.php.html#7\">AuthenticateNewHotelUserRequest<\/a>"],[100,2,"<a href=\"Requests\/User\/AddProposalUserRequest.php.html#7\">AddProposalUserRequest<\/a>"],[100,2,"<a href=\"Requests\/User\/CreateLicenseeUserRequest.php.html#7\">CreateLicenseeUserRequest<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Controllers\/LicenseesController.php.html#16\">LicenseesController::show<\/a>"],[100,1,"<a href=\"Controllers\/LicenseesController.php.html#26\">LicenseesController::create<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/User\/LicenseeUsersController.php.html#31\">LicenseeUsersController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/User\/LicenseeUsersController.php.html#47\">LicenseeUsersController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/User\/LicenseeUsersController.php.html#66\">LicenseeUsersController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/UsersController.php.html#30\">UsersController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/UsersController.php.html#46\">UsersController::show<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Admin\/UsersController.php.html#62\">UsersController::destroy<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalSubmissionsController.php.html#21\">ProposalSubmissionsController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalUsersController.php.html#23\">ProposalUsersController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#31\">ProposalsController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#45\">ProposalsController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#64\">ProposalsController::show<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#81\">ProposalsController::update<\/a>"],[100,2,"<a href=\"Controllers\/Api\/Hotel\/ProposalsController.php.html#101\">ProposalsController::destroy<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/UserConfirmationsController.php.html#26\">UserConfirmationsController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Hotel\/UserConfirmationsController.php.html#46\">UserConfirmationsController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#33\">HotelsController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#46\">HotelsController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#62\">HotelsController::show<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#78\">HotelsController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#97\">HotelsController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/HotelsController.php.html#116\">HotelsController::destroy<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ClientUsersController.php.html#30\">ClientUsersController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ClientUsersController.php.html#43\">ClientUsersController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ClientsController.php.html#22\">ClientsController::store<\/a>"],[100,1,"<a href=\"Controllers\/ContractsController.php.html#17\">ContractsController::show<\/a>"],[100,1,"<a href=\"Controllers\/ContractsController.php.html#28\">ContractsController::upload<\/a>"],[100,1,"<a href=\"Controllers\/ContractsController.php.html#39\">ContractsController::change<\/a>"],[100,1,"<a href=\"Controllers\/ContractsController.php.html#50\">ContractsController::decline<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/LicenseeProfilesController.php.html#31\">LicenseeProfilesController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/LicenseeProfilesController.php.html#42\">LicenseeProfilesController::show<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/LicenseeProfilesController.php.html#60\">LicenseeProfilesController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/PlannerUsersController.php.html#29\">PlannerUsersController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/PlannerUsersController.php.html#42\">PlannerUsersController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/PlannersController.php.html#22\">PlannersController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/AccommodationsController.php.html#21\">AccommodationsController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/DisburseProposalRequestsController.php.html#21\">DisburseProposalRequestsController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/EventDetailsController.php.html#21\">EventDetailsController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/FoodBeverageController.php.html#23\">FoodBeverageController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#33\">NotesController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#49\">NotesController::index<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#68\">NotesController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#90\">NotesController::update<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/NotesController.php.html#110\">NotesController::destroy<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/ProposalContactsController.php.html#22\">ProposalContactsController::store<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/ProposalContactsController.php.html#36\">ProposalContactsController::destroy<\/a>"],[100,1,"<a href=\"Controllers\/Api\/Licensee\/ProposalRequest\/SpacesController.php.html#23\">SpacesController::update<\/a>"],[100,1,"<a href=\"Controllers\/ProposalRequestsController.php.html#16\">ProposalRequestsController::landingPage<\/a>"],[100,1,"<a href=\"Controllers\/ProposalRequestsController.php.html#27\">ProposalRequestsController::detail<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/ForgotPasswordController.php.html#28\">ForgotPasswordController::__construct<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/LoginController.php.html#35\">LoginController::__construct<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/RegisterController.php.html#37\">RegisterController::__construct<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/RegisterController.php.html#48\">RegisterController::validator<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/RegisterController.php.html#63\">RegisterController::create<\/a>"],[0,1,"<a href=\"Controllers\/Auth\/ResetPasswordController.php.html#28\">ResetPasswordController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/EventsController.php.html#18\">EventsController::home<\/a>"],[100,1,"<a href=\"Controllers\/EventsController.php.html#29\">EventsController::show<\/a>"],[100,1,"<a href=\"Controllers\/EventsController.php.html#40\">EventsController::create<\/a>"],[100,1,"<a href=\"Controllers\/HomeController.php.html#14\">HomeController::__construct<\/a>"],[100,1,"<a href=\"Controllers\/HomeController.php.html#26\">HomeController::show<\/a>"],[100,1,"<a href=\"Controllers\/HoteliersController.php.html#17\">HoteliersController::home<\/a>"],[100,1,"<a href=\"Controllers\/LicenseesUsersController.php.html#15\">LicenseesUsersController::create<\/a>"],[100,1,"<a href=\"Controllers\/RfpsController.php.html#17\">RfpsController::show<\/a>"],[100,1,"<a href=\"Controllers\/RfpsController.php.html#29\">RfpsController::old_summary<\/a>"],[100,1,"<a href=\"Controllers\/RfpsController.php.html#40\">RfpsController::change<\/a>"],[100,1,"<a href=\"Controllers\/RfpsController.php.html#51\">RfpsController::decline<\/a>"],[100,1,"<a href=\"Controllers\/WelcomeController.php.html#14\">WelcomeController::show<\/a>"],[100,1,"<a href=\"Middleware\/BelongsTo\/BelongsTo.php.html#64\">BelongsTo::__construct<\/a>"],[83.333333333333,2,"<a href=\"Middleware\/BelongsTo\/BelongsTo.php.html#76\">BelongsTo::handle<\/a>"],[100,1,"<a href=\"Middleware\/BelongsTo\/EventDateRangeBelongsToProposalRequest.php.html#19\">EventDateRangeBelongsToProposalRequest::__construct<\/a>"],[60,2,"<a href=\"Middleware\/BelongsTo\/EventDateRangeBelongsToProposalRequest.php.html#31\">EventDateRangeBelongsToProposalRequest::handle<\/a>"],[66.666666666667,2,"<a href=\"Middleware\/CanAccess\/CanAccess.php.html#23\">CanAccess::handle<\/a>"],[100,1,"<a href=\"Middleware\/CanAccess\/CanAccess.php.html#39\">CanAccess::isAuthorized<\/a>"],[100,1,"<a href=\"Middleware\/CanAccess\/HotelUserCanAccessProposal.php.html#25\">HotelUserCanAccessProposal::__construct<\/a>"],[100,2,"<a href=\"Middleware\/CanAccess\/HotelUserCanAccessProposal.php.html#37\">HotelUserCanAccessProposal::isAuthorized<\/a>"],[100,1,"<a href=\"Middleware\/ObjectExists\/ObjectExists.php.html#49\">ObjectExists::__construct<\/a>"],[66.666666666667,2,"<a href=\"Middleware\/ObjectExists\/ObjectExists.php.html#61\">ObjectExists::handle<\/a>"],[100,1,"<a href=\"Middleware\/ProposalAuthOrQueryString.php.html#20\">ProposalAuthOrQueryString::__construct<\/a>"],[83.333333333333,4,"<a href=\"Middleware\/ProposalAuthOrQueryString.php.html#34\">ProposalAuthOrQueryString::handle<\/a>"],[0,2,"<a href=\"Middleware\/RedirectIfAuthenticated.php.html#18\">RedirectIfAuthenticated::handle<\/a>"],[100,1,"<a href=\"Middleware\/RequiresActiveHotel.php.html#19\">RequiresActiveHotel::__construct<\/a>"],[75,2,"<a href=\"Middleware\/RequiresActiveHotel.php.html#34\">RequiresActiveHotel::handle<\/a>"],[100,1,"<a href=\"Middleware\/UserIs\/UserHasNoPassword.php.html#21\">UserHasNoPassword::__construct<\/a>"],[100,2,"<a href=\"Middleware\/UserIs\/UserHasNoPassword.php.html#34\">UserHasNoPassword::handle<\/a>"],[0,1,"<a href=\"Middleware\/UserIs\/UserHasPassword.php.html#21\">UserHasPassword::__construct<\/a>"],[0,2,"<a href=\"Middleware\/UserIs\/UserHasPassword.php.html#34\">UserHasPassword::handle<\/a>"],[0,1,"<a href=\"Requests\/Hotel\/CreateHotelRequest.php.html#14\">CreateHotelRequest::authorize<\/a>"],[0,1,"<a href=\"Requests\/Hotel\/CreateHotelRequest.php.html#24\">CreateHotelRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Hotel\/UpdateHotelRequest.php.html#14\">UpdateHotelRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Hotel\/UpdateHotelRequest.php.html#24\">UpdateHotelRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Licensee\/CreateLicenseeRequest.php.html#14\">CreateLicenseeRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Licensee\/CreateLicenseeRequest.php.html#24\">CreateLicenseeRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Licensee\/UpdateLicenseeProfileRequest.php.html#14\">UpdateLicenseeProfileRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Licensee\/UpdateLicenseeProfileRequest.php.html#24\">UpdateLicenseeProfileRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Proposal\/UpdateProposalRequest.php.html#14\">UpdateProposalRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Proposal\/UpdateProposalRequest.php.html#24\">UpdateProposalRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/CreateProposalRequestRequest.php.html#14\">CreateProposalRequestRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/CreateProposalRequestRequest.php.html#24\">CreateProposalRequestRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/DisburseProposalRequestsRequest.php.html#14\">DisburseProposalRequestsRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/DisburseProposalRequestsRequest.php.html#24\">DisburseProposalRequestsRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateAccommodationsRequest.php.html#14\">UpdateAccommodationsRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateAccommodationsRequest.php.html#24\">UpdateAccommodationsRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateEventDetailsRequest.php.html#14\">UpdateEventDetailsRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateEventDetailsRequest.php.html#24\">UpdateEventDetailsRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateFoodBeverageRequest.php.html#14\">UpdateFoodBeverageRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateFoodBeverageRequest.php.html#24\">UpdateFoodBeverageRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateSpacesRequest.php.html#14\">UpdateSpacesRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/ProposalRequest\/UpdateSpacesRequest.php.html#24\">UpdateSpacesRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/RequestNote\/CreateRequestNoteRequest.php.html#14\">CreateRequestNoteRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/RequestNote\/CreateRequestNoteRequest.php.html#24\">CreateRequestNoteRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/RequestNote\/UpdateRequestNoteRequest.php.html#14\">UpdateRequestNoteRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/RequestNote\/UpdateRequestNoteRequest.php.html#24\">UpdateRequestNoteRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Session\/AuthenticateExistingHotelUserRequest.php.html#14\">AuthenticateExistingHotelUserRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Session\/AuthenticateExistingHotelUserRequest.php.html#24\">AuthenticateExistingHotelUserRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/Session\/AuthenticateNewHotelUserRequest.php.html#14\">AuthenticateNewHotelUserRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/Session\/AuthenticateNewHotelUserRequest.php.html#24\">AuthenticateNewHotelUserRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/User\/AddProposalUserRequest.php.html#14\">AddProposalUserRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/User\/AddProposalUserRequest.php.html#24\">AddProposalUserRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/User\/CreateLicenseeUserRequest.php.html#14\">CreateLicenseeUserRequest::authorize<\/a>"],[100,1,"<a href=\"Requests\/User\/CreateLicenseeUserRequest.php.html#24\">CreateLicenseeUserRequest::rules<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

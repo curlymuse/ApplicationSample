@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="HotelsController.php">
+    <totals>
+      <lines total="126" comments="44" code="82" executable="20" executed="20" percent="100.00%"/>
+      <methods count="6" tested="6" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="HotelsController" start="17" executable="20" executed="20" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api"/>
+      <method name="__construct" signature="__construct(&#10;        HotelRepositoryInterface $hotelRepo,&#10;        HotelTransformer $hotelTransformer&#10;    )" start="33" end="39" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="index" signature="index()" start="46" end="53" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="show" signature="show($hotelId)" start="62" end="69" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="store" signature="store(CreateHotelRequest $request)" start="78" end="87" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="update" signature="update(UpdateHotelRequest $request, $hotelId)" start="97" end="107" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="destroy" signature="destroy($hotelId)" start="116" end="125" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="37">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_index"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+      </line>
+      <line nr="68">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+      </line>
+      <line nr="80">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+      </line>
+      <line nr="86">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_store"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+      </line>
+      <line nr="100">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+      </line>
+      <line nr="102">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+      </line>
+      <line nr="106">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+      </line>
+      <line nr="118">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+      <line nr="119">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+      <line nr="124">
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

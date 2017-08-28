@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="GenerateControllerTest.php">
+    <totals>
+      <lines total="51" comments="27" code="24" executable="2" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="GenerateControllerTest" start="7" executable="2" executed="0" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Console\Commands\Generators\Test"/>
+      <method name="getStub" signature="getStub()" start="35" end="38" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getDefaultNamespace" signature="getDefaultNamespace($rootNamespace)" start="47" end="50" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

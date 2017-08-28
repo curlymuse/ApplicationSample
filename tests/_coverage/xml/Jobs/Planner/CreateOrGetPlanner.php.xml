@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateOrGetPlanner.php">
+    <totals>
+      <lines total="62" comments="17" code="45" executable="12" executed="9" percent="75.00%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateOrGetPlanner" start="12" executable="12" executed="9" crap="3.14">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Planner"/>
+      <method name="__construct" signature="__construct($googleId, $attributes = [])" start="32" end="36" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(PlannerRepositoryInterface $plannerRepo)" start="43" end="61" crap="2.15" executable="9" executed="6" coverage="66.666666666667"/>
+    </class>
+    <coverage>
+      <line nr="34">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\PlannersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\PlannersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\PlannersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="46">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+      <line nr="60">
+        <covered by="Tests\Unit\Jobs\Planner\CreateOrGetPlannerTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UsersController.php">
+    <totals>
+      <lines total="72" comments="24" code="48" executable="9" executed="9" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UsersController" start="13" executable="9" executed="9" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Admin"/>
+      <method name="__construct" signature="__construct(&#10;        UserRepositoryInterface $userRepo,&#10;        UserTransformer $transformer&#10;    )" start="30" end="37" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="show" signature="show($userId)" start="46" end="53" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="destroy" signature="destroy($userId)" start="62" end="71" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="35">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+      <line nr="70">
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

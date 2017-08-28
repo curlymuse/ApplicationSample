@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateProposalRequest.php">
+    <totals>
+      <lines total="68" comments="17" code="51" executable="16" executed="16" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateProposalRequest" start="14" executable="16" executed="16" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\ProposalRequest"/>
+      <method name="__construct" signature="__construct($licenseeId, $attributes = [])" start="34" end="38" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="handle" signature="handle(ProposalRequestRepositoryInterface $proposalRequestRepo, EventRepositoryInterface $eventRepo)" start="45" end="67" crap="1" executable="13" executed="13" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="36">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="55">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="56">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="57">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="58">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+      <line nr="67">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\CreateProposalRequestTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

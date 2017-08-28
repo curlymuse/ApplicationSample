@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="SpaceRequestRepository.php">
+    <totals>
+      <lines total="31" comments="9" code="22" executable="9" executed="9" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="SpaceRequestRepository" start="7" executable="9" executed="9" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="syncForEventDateRange" signature="syncForEventDateRange($eventDateRangeId, $spaces = [], $type = 'Meeting')" start="18" end="30" crap="2" executable="9" executed="9" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="20">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="21">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

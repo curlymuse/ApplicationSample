@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UserRepository.php">
+    <totals>
+      <lines total="123" comments="48" code="75" executable="28" executed="28" percent="100.00%"/>
+      <methods count="7" tested="7" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UserRepository" start="10" executable="28" executed="28" crap="10">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="findFromRecipientHash" signature="findFromRecipientHash($userId, $relatedModelId, $relatedModelType, $hash)" start="22" end="33" crap="3" executable="7" executed="7" coverage="100"/>
+      <method name="anonymous function" signature="anonymous function ($query) use ($plannerId)" start="80" end="83" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="allForLicensee" signature="allForLicensee($licenseeId)" start="42" end="50" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="allForClient" signature="allForClient($clientId)" start="59" end="67" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="allForPlanner" signature="allForPlanner($plannerId)" start="76" end="84" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="createAccount" signature="createAccount($email, $password, $attributes = [])" start="95" end="104" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="setPassword" signature="setPassword($userId, $password)" start="114" end="122" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="24">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+      </line>
+      <line nr="78">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+      </line>
+      <line nr="79">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+      </line>
+      <line nr="83">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+      </line>
+      <line nr="97">
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+      </line>
+      <line nr="98">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+      </line>
+      <line nr="101">
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+      </line>
+      <line nr="102">
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+      </line>
+      <line nr="116">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+      </line>
+      <line nr="119">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="31">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

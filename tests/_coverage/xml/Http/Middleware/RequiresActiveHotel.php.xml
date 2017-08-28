@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RequiresActiveHotel.php">
+    <totals>
+      <lines total="44" comments="16" code="28" executable="6" executed="5" percent="83.33%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RequiresActiveHotel" start="9" executable="6" executed="5" crap="3.04">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Middleware"/>
+      <method name="__construct" signature="__construct(HotelRepositoryInterface $hotelRepo)" start="19" end="22" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle($request, Closure $next)" start="34" end="43" crap="2.06" executable="4" executed="3" coverage="75"/>
+    </class>
+    <coverage>
+      <line nr="21">
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

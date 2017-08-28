@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="GenerateRepository.php">
+    <totals>
+      <lines total="59" comments="27" code="32" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="GenerateRepository" start="7" executable="0" executed="0" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Console\Commands\Generators"/>
+      <method name="getStub" signature="getStub()" start="35" end="38" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="getDefaultNamespace" signature="getDefaultNamespace($rootNamespace)" start="47" end="50" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="fire" signature="fire()" start="52" end="58" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+  </file>
+</phpunit>

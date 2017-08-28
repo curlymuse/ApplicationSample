@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UserConfirmationsController.php">
+    <totals>
+      <lines total="57" comments="16" code="41" executable="10" executed="10" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UserConfirmationsController" start="15" executable="10" executed="10" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Hotel"/>
+      <method name="store" signature="store(AuthenticateNewHotelUserRequest $request, $proposalId)" start="26" end="37" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="update" signature="update(AuthenticateExistingHotelUserRequest $request, $proposalId)" start="46" end="56" crap="1" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+      </line>
+      <line nr="31">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="51">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="55">
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

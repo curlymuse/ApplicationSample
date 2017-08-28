@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="User.php">
+    <totals>
+      <lines total="127" comments="41" code="86" executable="12" executed="9" percent="75.00%"/>
+      <methods count="7" tested="4" percent="57.14%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="User" start="8" executable="12" executed="9" crap="7.77">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="contractsReceived" signature="contractsReceived()" start="70" end="74" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="contractsAcceptedForLicensee" signature="contractsAcceptedForLicensee()" start="79" end="82" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="contractsAcceptedForHotel" signature="contractsAcceptedForHotel()" start="87" end="90" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="proposals" signature="proposals()" start="95" end="99" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="proposalRequestsManaging" signature="proposalRequestsManaging()" start="104" end="108" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="requestNotes" signature="requestNotes()" start="113" end="116" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="roles" signature="roles()" start="121" end="126" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="72">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+      </line>
+      <line nr="73">
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+      </line>
+      <line nr="97">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="98">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+      </line>
+      <line nr="106">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="107">
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+      </line>
+      <line nr="123">
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="124">
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="125">
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,37 @@
+<?php
+
+namespace Tests\Integration\JobPoliciesDummyRelativeNamespaceWithOptionalSlash;
+
+use App\Jobs\DummyRelativeClass;
+use Tests\TestCase;
+
+/**
+ * Class Test
+ *
+ * @coversBaseClass App\JobPolicies\DummyRelativeClassPolicy
+ */
+class DummyClassPolicyTest extends TestCase
+{
+    /**
+     * @var \Faker\Generator
+     */
+    protected $faker;
+
+    /**
+     * @before
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->faker = \Faker\Factory::create();
+    }
+
+    public function test_it_succeeds_under_compliant_conditions()
+    {
+        dispatch(
+            new DummyClass(
+            )
+        );
+    }
+}

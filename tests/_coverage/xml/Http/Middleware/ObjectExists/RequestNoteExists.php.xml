@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RequestNoteExists.php">
+    <totals>
+      <lines total="27" comments="11" code="16" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RequestNoteExists" start="8" executable="0" executed="0" crap="0">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Middleware\ObjectExists"/>
+    </class>
+  </file>
+</phpunit>

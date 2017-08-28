@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalRequestsController.php">
+    <totals>
+      <lines total="31" comments="12" code="19" executable="2" executed="2" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalRequestsController" start="8" executable="2" executed="2" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers"/>
+      <method name="landingPage" signature="landingPage($proposalId)" start="16" end="19" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="detail" signature="detail($proposalId)" start="27" end="30" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="18">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

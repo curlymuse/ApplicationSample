@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ContractRepository.php">
+    <totals>
+      <lines total="56" comments="27" code="29" executable="9" executed="5" percent="55.56%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ContractRepository" start="8" executable="9" executed="5" crap="3.79">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="getForHotelAndUser" signature="getForHotelAndUser($hotelId, $userId = null)" start="18" end="33" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="initializeWithProposal" signature="initializeWithProposal(Proposal $proposal)" start="42" end="55" crap="2" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="45">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+      </line>
+      <line nr="51">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

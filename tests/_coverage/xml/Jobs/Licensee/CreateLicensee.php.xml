@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateLicensee.php">
+    <totals>
+      <lines total="48" comments="13" code="35" executable="8" executed="8" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateLicensee" start="12" executable="8" executed="8" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\Licensee"/>
+      <method name="__construct" signature="__construct($attributes = [])" start="26" end="29" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle(LicenseeRepositoryInterface $licenseeRepo)" start="36" end="47" crap="1" executable="6" executed="6" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="42">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Unit\Jobs\Licensee\CreateLicenseeTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

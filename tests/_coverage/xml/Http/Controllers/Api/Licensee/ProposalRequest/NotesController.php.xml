@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="NotesController.php">
+    <totals>
+      <lines total="120" comments="42" code="78" executable="17" executed="17" percent="100.00%"/>
+      <methods count="5" tested="5" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="NotesController" start="17" executable="17" executed="17" crap="5">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee\ProposalRequest"/>
+      <method name="__construct" signature="__construct(&#10;        RequestNoteRepositoryInterface $noteRepo,&#10;        RequestNoteTransformer $transformer&#10;    )" start="33" end="40" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="index" signature="index($requestId)" start="49" end="58" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="store" signature="store(CreateRequestNoteRequest $request, $requestId)" start="68" end="79" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="update" signature="update(UpdateRequestNoteRequest $request, $requestId, $noteId)" start="90" end="100" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="destroy" signature="destroy($requestId, $noteId)" start="110" end="119" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="38">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="40">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="51">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+      </line>
+      <line nr="57">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+      </line>
+      <line nr="70">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+      </line>
+      <line nr="74">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+      </line>
+      <line nr="78">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+      </line>
+      <line nr="92">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+      </line>
+      <line nr="93">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+      </line>
+      <line nr="95">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+      </line>
+      <line nr="112">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="113">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="118">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

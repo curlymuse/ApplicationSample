@@ -1,0 +1,53 @@
+<?php
+
+namespace Tests\Integration\MailDummyRelativeNamespaceWithOptionalSlash;
+
+use App\Mail\DummyRelativeClass;
+use Tests\TestCase;
+
+/**
+ * Class DummyClassTest
+ *
+ * @coversBaseClass App\Mail\DummyRelativeClass
+ */
+class DummyClassTest extends TestCase
+{
+    /**
+     * @var \Faker\Generator
+     */
+    protected $faker;
+
+    /**
+     * @before
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->faker = \Faker\Factory::create();
+    }
+
+    /**
+     * Did the mailer fire at least once?
+     */
+    public function test_mail()
+    {
+        $this->expectsMailer(DummyClass::class);
+
+        event(
+            new EventThatSendsEmail(
+            )
+        );
+    }
+
+    /**
+     * Did the view get populated properly without error?
+     */
+    public function test_view()
+    {
+        event(
+            new EventThatSendsEmail(
+            )
+        );
+    }
+}

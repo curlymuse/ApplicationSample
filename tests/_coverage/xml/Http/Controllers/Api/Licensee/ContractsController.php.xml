@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ContractsController.php">
+    <totals>
+      <lines total="30" comments="7" code="23" executable="3" executed="3" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ContractsController" start="11" executable="3" executed="3" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee"/>
+      <method name="store" signature="store($proposalId)" start="20" end="29" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="22">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

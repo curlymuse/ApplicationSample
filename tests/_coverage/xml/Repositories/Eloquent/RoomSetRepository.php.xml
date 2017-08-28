@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RoomSetRepository.php">
+    <totals>
+      <lines total="28" comments="9" code="19" executable="5" executed="0" percent="0.00%"/>
+      <methods count="1" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RoomSetRepository" start="8" executable="5" executed="0" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="addToContract" signature="addToContract($contract, $date, $rooms)" start="19" end="27" crap="2" executable="5" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

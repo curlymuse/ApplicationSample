@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ObjectExists.php">
+    <totals>
+      <lines total="69" comments="35" code="34" executable="5" executed="4" percent="80.00%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ObjectExists" start="9" executable="5" executed="4" crap="3.07">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Middleware\ObjectExists"/>
+      <method name="__construct" signature="__construct()" start="49" end="52" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="handle" signature="handle($request, Closure $next)" start="61" end="68" crap="2.15" executable="3" executed="2" coverage="66.666666666667"/>
+    </class>
+    <coverage>
+      <line nr="51">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+      <line nr="67">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\LicenseesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\UsersControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\HotelsControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequestsControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_landingPage"/>
+        <covered by="Tests\Unit\Controllers\ProposalRequestsControllerTest::test_detail"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

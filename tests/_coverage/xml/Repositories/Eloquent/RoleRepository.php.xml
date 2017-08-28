@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RoleRepository.php">
+    <totals>
+      <lines total="51" comments="14" code="37" executable="13" executed="12" percent="92.31%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RoleRepository" start="8" executable="13" executed="12" crap="4.01">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="addRoleToUser" signature="addRoleToUser($user, $slug, $rolable = null)" start="19" end="37" crap="3.01" executable="9" executed="8" coverage="88.888888888889"/>
+      <method name="getRoleList" signature="getRoleList()" start="44" end="50" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="21">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="31">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="37">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="46">
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+      </line>
+      <line nr="49">
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

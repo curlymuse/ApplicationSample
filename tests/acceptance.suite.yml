@@ -1,0 +1,25 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+# NOTE: Trouble getting codception tests to pass or work?
+# Consult this reference for some tips: https://gist.github.com/antonioribeiro/96ce9675e5660c317bcc
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://resbeat.testing.localhost
+            browser: phantomjs
+            window_size: 1366x1366
+            restart: true
+            clear_cookies: true
+        - \Helper\Acceptance
+        - Cli
+        - Asserts
+        - Db:
+            dsn: 'sqlite:database/database.sqlite'
+            user: ''
+            password: ''

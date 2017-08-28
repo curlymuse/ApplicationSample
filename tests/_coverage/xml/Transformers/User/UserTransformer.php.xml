@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UserTransformer.php">
+    <totals>
+      <lines total="44" comments="13" code="31" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UserTransformer" start="8" executable="0" executed="0" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Transformers\User"/>
+      <method name="__construct" signature="__construct(RoleTransformer $roleTransformer)" start="18" end="21" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="transform" signature="transform($object)" start="30" end="43" crap="2" executable="0" executed="0" coverage="100"/>
+    </class>
+  </file>
+</phpunit>

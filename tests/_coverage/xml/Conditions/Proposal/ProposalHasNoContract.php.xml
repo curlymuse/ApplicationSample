@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalHasNoContract.php">
+    <totals>
+      <lines total="37" comments="12" code="25" executable="5" executed="5" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalHasNoContract" start="10" executable="5" executed="5" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Conditions\Proposal"/>
+      <method name="__construct" signature="__construct(Job $job)" start="20" end="23" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="holds" signature="holds()" start="31" end="36" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="22">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+      <line nr="33">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+      <line nr="34">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

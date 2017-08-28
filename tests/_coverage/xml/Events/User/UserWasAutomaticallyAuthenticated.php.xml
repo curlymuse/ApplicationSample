@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UserWasAutomaticallyAuthenticated.php">
+    <totals>
+      <lines total="45" comments="16" code="29" executable="4" executed="2" percent="50.00%"/>
+      <methods count="3" tested="1" percent="33.33%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UserWasAutomaticallyAuthenticated" start="9" executable="4" executed="2" crap="4.12">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Events\User"/>
+      <method name="__construct" signature="__construct($userId)" start="23" end="26" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="broadcastOn" signature="broadcastOn()" start="33" end="36" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getUserId" signature="getUserId()" start="41" end="44" crap="2" executable="1" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Jobs\User\AutoAuthenticateUserTest::test_handle"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Unit\Jobs\User\AutoAuthenticateUserTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

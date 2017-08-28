@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="LicenseeProfilesController.php">
+    <totals>
+      <lines total="71" comments="23" code="48" executable="10" executed="10" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="LicenseeProfilesController" start="14" executable="10" executed="10" crap="3">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee"/>
+      <method name="__construct" signature="__construct(LicenseeRepositoryInterface $licenseeRepo, LicenseeProfileTransformer $transformer)" start="31" end="35" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="show" signature="show()" start="42" end="51" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="update" signature="update(UpdateLicenseeProfileRequest $request)" start="60" end="70" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="33">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="34">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="69">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_update"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+      </line>
+      <line nr="50">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\LicenseeProfilesControllerTest::test_show"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

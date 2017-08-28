@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ProposalContactsController.php">
+    <totals>
+      <lines total="47" comments="18" code="29" executable="4" executed="4" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ProposalContactsController" start="11" executable="4" executed="4" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee\ProposalRequest"/>
+      <method name="store" signature="store(Request $request, $requestId, $proposalId)" start="22" end="25" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="destroy" signature="destroy($requestId, $proposalId, $userId)" start="36" end="46" crap="1" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="24">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\ProposalContactsControllerTest::test_store"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\ProposalContactsControllerTest::test_destroy"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\ProposalContactsControllerTest::test_destroy"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\ProposalContactsControllerTest::test_destroy"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

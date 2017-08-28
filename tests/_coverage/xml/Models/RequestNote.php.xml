@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RequestNote.php">
+    <totals>
+      <lines total="43" comments="16" code="27" executable="0" executed="0" percent=""/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RequestNote" start="7" executable="0" executed="0" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Models"/>
+      <method name="author" signature="author()" start="31" end="34" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="proposalRequest" signature="proposalRequest()" start="39" end="42" crap="1" executable="0" executed="0" coverage="100"/>
+    </class>
+  </file>
+</phpunit>

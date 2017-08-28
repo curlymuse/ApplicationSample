@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/nateritter/Sites/resbeat/app/Jobs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/Users/nateritter/Sites/resbeat/app</a></li>
+        <li><a href="index.html">Jobs</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Proposal/SubmitProposal.php.html#11">SubmitProposal</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Client/CreateOrGetClient.php.html#12">CreateOrGetClient</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Planner/CreateOrGetPlanner.php.html#12">CreateOrGetPlanner</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Job.php.html#7">Job</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="User/AssignFirstPassword.php.html#12">AssignFirstPassword</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Client/CreateOrGetClient.php.html#12">CreateOrGetClient</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Planner/CreateOrGetPlanner.php.html#12">CreateOrGetPlanner</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Job.php.html#7">Job</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Proposal/SubmitProposal.php.html#49"><abbr title="SubmitProposal::getProposalId">getProposalId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Proposal/SubmitProposal.php.html#57"><abbr title="SubmitProposal::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalRequest/InitializeProposalRequest.php.html#116"><abbr title="InitializeProposalRequest::getHotelId">getHotelId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/AssignFirstPassword.php.html#52"><abbr title="AssignFirstPassword::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/CreateOrGetClient.php.html#43"><abbr title="CreateOrGetClient::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Planner/CreateOrGetPlanner.php.html#43"><abbr title="CreateOrGetPlanner::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Job.php.html#29"><abbr title="Job::verifyCompliance">verifyCompliance</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Client/CreateOrGetClient.php.html#43"><abbr title="CreateOrGetClient::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Planner/CreateOrGetPlanner.php.html#43"><abbr title="CreateOrGetPlanner::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Job.php.html#29"><abbr title="Job::verifyCompliance">verifyCompliance</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.0</a> using <a href="https://secure.php.net/" target="_top">PHP 7.0.10</a> with <a href="https://xdebug.org/">Xdebug 2.4.0</a> and <a href="https://phpunit.de/">PHPUnit 5.4.4</a> at Thu Sep 22 5:44:24 UTC 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.min.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,0,1,2,2,1,26], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,2,0,1,0,65], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"Admin\/Hotel\/CreateHotel.php.html#12\">CreateHotel<\/a>"],[100,2,"<a href=\"Admin\/Hotel\/DeleteHotel.php.html#12\">DeleteHotel<\/a>"],[100,2,"<a href=\"Admin\/Hotel\/UpdateHotel.php.html#12\">UpdateHotel<\/a>"],[75,3,"<a href=\"Client\/CreateOrGetClient.php.html#12\">CreateOrGetClient<\/a>"],[100,4,"<a href=\"Contract\/CreateContractFromProposal.php.html#15\">CreateContractFromProposal<\/a>"],[100,2,"<a href=\"Hotel\/Proposal\/DeclineProposal.php.html#12\">DeclineProposal<\/a>"],[100,2,"<a href=\"Hotel\/Proposal\/UpdateProposal.php.html#12\">UpdateProposal<\/a>"],[80,2,"<a href=\"Job.php.html#7\">Job<\/a>"],[100,2,"<a href=\"Licensee\/CreateLicensee.php.html#12\">CreateLicensee<\/a>"],[100,2,"<a href=\"Licensee\/UpdateLicenseeProfile.php.html#12\">UpdateLicenseeProfile<\/a>"],[75,3,"<a href=\"Planner\/CreateOrGetPlanner.php.html#12\">CreateOrGetPlanner<\/a>"],[100,2,"<a href=\"Proposal\/AddUserToProposal.php.html#12\">AddUserToProposal<\/a>"],[100,2,"<a href=\"Proposal\/RemoveUserFromProposal.php.html#12\">RemoveUserFromProposal<\/a>"],[66.666666666667,4,"<a href=\"Proposal\/SubmitProposal.php.html#11\">SubmitProposal<\/a>"],[100,2,"<a href=\"ProposalRequest\/AddUserToProposalRequest.php.html#12\">AddUserToProposalRequest<\/a>"],[100,2,"<a href=\"ProposalRequest\/CreateProposalRequest.php.html#14\">CreateProposalRequest<\/a>"],[100,3,"<a href=\"ProposalRequest\/DisburseProposalRequests.php.html#11\">DisburseProposalRequests<\/a>"],[96.551724137931,6,"<a href=\"ProposalRequest\/InitializeProposalRequest.php.html#15\">InitializeProposalRequest<\/a>"],[100,6,"<a href=\"ProposalRequest\/UpdateAccommodations.php.html#14\">UpdateAccommodations<\/a>"],[100,2,"<a href=\"ProposalRequest\/UpdateEventDetails.php.html#12\">UpdateEventDetails<\/a>"],[100,4,"<a href=\"ProposalRequest\/UpdateFoodBeverage.php.html#13\">UpdateFoodBeverage<\/a>"],[100,4,"<a href=\"ProposalRequest\/UpdateSpaces.php.html#13\">UpdateSpaces<\/a>"],[100,2,"<a href=\"RequestNote\/CreateRequestNote.php.html#12\">CreateRequestNote<\/a>"],[100,2,"<a href=\"RequestNote\/DeleteRequestNote.php.html#12\">DeleteRequestNote<\/a>"],[100,2,"<a href=\"RequestNote\/UpdateRequestNote.php.html#12\">UpdateRequestNote<\/a>"],[88.888888888889,3,"<a href=\"User\/AssignFirstPassword.php.html#12\">AssignFirstPassword<\/a>"],[100,2,"<a href=\"User\/AutoAuthenticateUser.php.html#11\">AutoAuthenticateUser<\/a>"],[100,3,"<a href=\"User\/ConfirmPassword.php.html#13\">ConfirmPassword<\/a>"],[100,2,"<a href=\"User\/CreateHotelUser.php.html#10\">CreateHotelUser<\/a>"],[100,2,"<a href=\"User\/CreateLicenseeUser.php.html#14\">CreateLicenseeUser<\/a>"],[100,2,"<a href=\"User\/CreateTempUser.php.html#12\">CreateTempUser<\/a>"],[100,2,"<a href=\"User\/DeleteUser.php.html#12\">DeleteUser<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Admin\/Hotel\/CreateHotel.php.html#26\">CreateHotel::__construct<\/a>"],[100,1,"<a href=\"Admin\/Hotel\/CreateHotel.php.html#36\">CreateHotel::handle<\/a>"],[100,1,"<a href=\"Admin\/Hotel\/DeleteHotel.php.html#26\">DeleteHotel::__construct<\/a>"],[100,1,"<a href=\"Admin\/Hotel\/DeleteHotel.php.html#36\">DeleteHotel::handle<\/a>"],[100,1,"<a href=\"Admin\/Hotel\/UpdateHotel.php.html#32\">UpdateHotel::__construct<\/a>"],[100,1,"<a href=\"Admin\/Hotel\/UpdateHotel.php.html#43\">UpdateHotel::handle<\/a>"],[100,1,"<a href=\"Client\/CreateOrGetClient.php.html#32\">CreateOrGetClient::__construct<\/a>"],[66.666666666667,2,"<a href=\"Client\/CreateOrGetClient.php.html#43\">CreateOrGetClient::handle<\/a>"],[100,1,"<a href=\"Contract\/CreateContractFromProposal.php.html#34\">CreateContractFromProposal::__construct<\/a>"],[100,2,"<a href=\"Contract\/CreateContractFromProposal.php.html#44\">CreateContractFromProposal::handle<\/a>"],[100,1,"<a href=\"Contract\/CreateContractFromProposal.php.html#74\">CreateContractFromProposal::getProposal<\/a>"],[100,1,"<a href=\"Hotel\/Proposal\/DeclineProposal.php.html#32\">DeclineProposal::__construct<\/a>"],[100,1,"<a href=\"Hotel\/Proposal\/DeclineProposal.php.html#43\">DeclineProposal::handle<\/a>"],[100,1,"<a href=\"Hotel\/Proposal\/UpdateProposal.php.html#38\">UpdateProposal::__construct<\/a>"],[100,1,"<a href=\"Hotel\/Proposal\/UpdateProposal.php.html#50\">UpdateProposal::handle<\/a>"],[80,2,"<a href=\"Job.php.html#29\">Job::verifyCompliance<\/a>"],[100,1,"<a href=\"Licensee\/CreateLicensee.php.html#26\">CreateLicensee::__construct<\/a>"],[100,1,"<a href=\"Licensee\/CreateLicensee.php.html#36\">CreateLicensee::handle<\/a>"],[100,1,"<a href=\"Licensee\/UpdateLicenseeProfile.php.html#43\">UpdateLicenseeProfile::__construct<\/a>"],[100,1,"<a href=\"Licensee\/UpdateLicenseeProfile.php.html#54\">UpdateLicenseeProfile::handle<\/a>"],[100,1,"<a href=\"Planner\/CreateOrGetPlanner.php.html#32\">CreateOrGetPlanner::__construct<\/a>"],[66.666666666667,2,"<a href=\"Planner\/CreateOrGetPlanner.php.html#43\">CreateOrGetPlanner::handle<\/a>"],[100,1,"<a href=\"Proposal\/AddUserToProposal.php.html#38\">AddUserToProposal::__construct<\/a>"],[100,1,"<a href=\"Proposal\/AddUserToProposal.php.html#50\">AddUserToProposal::handle<\/a>"],[100,1,"<a href=\"Proposal\/RemoveUserFromProposal.php.html#32\">RemoveUserFromProposal::__construct<\/a>"],[100,1,"<a href=\"Proposal\/RemoveUserFromProposal.php.html#43\">RemoveUserFromProposal::handle<\/a>"],[100,1,"<a href=\"Proposal\/SubmitProposal.php.html#31\">SubmitProposal::__construct<\/a>"],[100,1,"<a href=\"Proposal\/SubmitProposal.php.html#42\">SubmitProposal::handle<\/a>"],[0,1,"<a href=\"Proposal\/SubmitProposal.php.html#49\">SubmitProposal::getProposalId<\/a>"],[0,1,"<a href=\"Proposal\/SubmitProposal.php.html#57\">SubmitProposal::getUserId<\/a>"],[100,1,"<a href=\"ProposalRequest\/AddUserToProposalRequest.php.html#38\">AddUserToProposalRequest::__construct<\/a>"],[100,1,"<a href=\"ProposalRequest\/AddUserToProposalRequest.php.html#50\">AddUserToProposalRequest::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/CreateProposalRequest.php.html#34\">CreateProposalRequest::__construct<\/a>"],[100,1,"<a href=\"ProposalRequest\/CreateProposalRequest.php.html#45\">CreateProposalRequest::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/DisburseProposalRequests.php.html#31\">DisburseProposalRequests::__construct<\/a>"],[100,2,"<a href=\"ProposalRequest\/DisburseProposalRequests.php.html#42\">DisburseProposalRequests::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/InitializeProposalRequest.php.html#47\">InitializeProposalRequest::__construct<\/a>"],[100,3,"<a href=\"ProposalRequest\/InitializeProposalRequest.php.html#60\">InitializeProposalRequest::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/InitializeProposalRequest.php.html#108\">InitializeProposalRequest::getRequestId<\/a>"],[0,1,"<a href=\"ProposalRequest\/InitializeProposalRequest.php.html#116\">InitializeProposalRequest::getHotelId<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateAccommodations.php.html#34\">UpdateAccommodations::__construct<\/a>"],[100,4,"<a href=\"ProposalRequest\/UpdateAccommodations.php.html#47\">UpdateAccommodations::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateAccommodations.php.html#102\">UpdateAccommodations::getRequestId<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateEventDetails.php.html#32\">UpdateEventDetails::__construct<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateEventDetails.php.html#43\">UpdateEventDetails::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateFoodBeverage.php.html#33\">UpdateFoodBeverage::__construct<\/a>"],[100,2,"<a href=\"ProposalRequest\/UpdateFoodBeverage.php.html#44\">UpdateFoodBeverage::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateFoodBeverage.php.html#69\">UpdateFoodBeverage::getRequestId<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateSpaces.php.html#33\">UpdateSpaces::__construct<\/a>"],[100,2,"<a href=\"ProposalRequest\/UpdateSpaces.php.html#44\">UpdateSpaces::handle<\/a>"],[100,1,"<a href=\"ProposalRequest\/UpdateSpaces.php.html#69\">UpdateSpaces::getRequestId<\/a>"],[100,1,"<a href=\"RequestNote\/CreateRequestNote.php.html#38\">CreateRequestNote::__construct<\/a>"],[100,1,"<a href=\"RequestNote\/CreateRequestNote.php.html#50\">CreateRequestNote::handle<\/a>"],[100,1,"<a href=\"RequestNote\/DeleteRequestNote.php.html#26\">DeleteRequestNote::__construct<\/a>"],[100,1,"<a href=\"RequestNote\/DeleteRequestNote.php.html#36\">DeleteRequestNote::handle<\/a>"],[100,1,"<a href=\"RequestNote\/UpdateRequestNote.php.html#32\">UpdateRequestNote::__construct<\/a>"],[100,1,"<a href=\"RequestNote\/UpdateRequestNote.php.html#43\">UpdateRequestNote::handle<\/a>"],[100,1,"<a href=\"User\/AssignFirstPassword.php.html#26\">AssignFirstPassword::__construct<\/a>"],[100,1,"<a href=\"User\/AssignFirstPassword.php.html#36\">AssignFirstPassword::handle<\/a>"],[0,1,"<a href=\"User\/AssignFirstPassword.php.html#52\">AssignFirstPassword::getUserId<\/a>"],[100,1,"<a href=\"User\/AutoAuthenticateUser.php.html#25\">AutoAuthenticateUser::__construct<\/a>"],[100,1,"<a href=\"User\/AutoAuthenticateUser.php.html#35\">AutoAuthenticateUser::handle<\/a>"],[100,1,"<a href=\"User\/ConfirmPassword.php.html#33\">ConfirmPassword::__construct<\/a>"],[100,2,"<a href=\"User\/ConfirmPassword.php.html#47\">ConfirmPassword::handle<\/a>"],[100,1,"<a href=\"User\/CreateHotelUser.php.html#19\">CreateHotelUser::__construct<\/a>"],[100,1,"<a href=\"User\/CreateHotelUser.php.html#29\">CreateHotelUser::handle<\/a>"],[100,1,"<a href=\"User\/CreateLicenseeUser.php.html#58\">CreateLicenseeUser::__construct<\/a>"],[100,1,"<a href=\"User\/CreateLicenseeUser.php.html#73\">CreateLicenseeUser::handle<\/a>"],[100,1,"<a href=\"User\/CreateTempUser.php.html#38\">CreateTempUser::__construct<\/a>"],[100,1,"<a href=\"User\/CreateTempUser.php.html#50\">CreateTempUser::handle<\/a>"],[100,1,"<a href=\"User\/DeleteUser.php.html#26\">DeleteUser::__construct<\/a>"],[100,1,"<a href=\"User\/DeleteUser.php.html#36\">DeleteUser::handle<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

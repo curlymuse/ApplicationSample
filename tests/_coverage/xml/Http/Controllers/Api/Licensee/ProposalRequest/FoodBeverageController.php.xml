@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="FoodBeverageController.php">
+    <totals>
+      <lines total="34" comments="9" code="25" executable="4" executed="4" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="FoodBeverageController" start="12" executable="4" executed="4" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee\ProposalRequest"/>
+      <method name="update" signature="update(UpdateFoodBeverageRequest $request, $requestId, $eventDateRangeId)" start="23" end="33" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="25">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

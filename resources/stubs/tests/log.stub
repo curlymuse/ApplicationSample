@@ -1,0 +1,61 @@
+<?php
+
+namespace Tests\Integration\LogDummyRelativeNamespaceWithOptionalSlash;
+
+use App\Events\DummyRelativeClass;
+use App\Repositories\Contracts\LogEntryRepositoryInterface;
+use App\Models\LogEntry;
+use Tests\TestCase;
+
+/**
+ * Class DummyClassTest
+ *
+ * @coversBaseClass \App\Events\DummyRelativeClass
+ */
+class DummyClassTest extends TestCase
+{
+    /**
+     * @var \Faker\Generator
+     */
+    protected $faker;
+
+    /**
+     * @var \App\Repositories\Contracts\LogEntryRepositoryInterface
+     */
+    private $logEntryRepo;
+
+    /**
+     * @before
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->faker = \Faker\Factory::create();
+
+        $this->logEntryRepo = $this->expectsRepository(LogEntryRepositoryInterface::class);
+    }
+
+    public function test_log()
+    {
+        $entry = factory(LogEntry::class)->create();
+
+        $this->logEntryRepo->shouldReceive('store')
+            ->once()
+            ->with([
+                'account_type'  => ,
+                'account_id'    => ,
+                'user_id'       => ,
+                'action'        => ,
+                'subject_type'  => ,
+                'subject_id'    => ,
+                'notes'         =>
+            ])
+            ->andReturn($entry);
+
+        event(
+            new DummyClass(
+            )
+        );
+    }
+}

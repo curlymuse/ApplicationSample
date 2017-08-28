@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CustomGeneratorCommand.php">
+    <totals>
+      <lines total="103" comments="30" code="73" executable="26" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CustomGeneratorCommand" start="7" executable="26" executed="0" crap="30">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Console\Commands\Generators"/>
+      <method name="getPath" signature="getPath($name)" start="22" end="27" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="replaceNamespace" signature="replaceNamespace(&amp;$stub, $name)" start="36" end="67" crap="6" executable="14" executed="0" coverage="0"/>
+      <method name="getRelativeClass" signature="getRelativeClass()" start="74" end="81" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getRelativeNamespace" signature="getRelativeNamespace($name)" start="90" end="102" crap="2" executable="6" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

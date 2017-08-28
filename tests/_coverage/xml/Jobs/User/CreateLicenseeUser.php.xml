@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CreateLicenseeUser.php">
+    <totals>
+      <lines total="103" comments="33" code="70" executable="21" executed="21" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CreateLicenseeUser" start="14" executable="21" executed="21" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Jobs\User"/>
+      <method name="__construct" signature="__construct($email, $name, $password, $licenseeId, $roleSlug, $attributes = [])" start="58" end="66" crap="1" executable="7" executed="7" coverage="100"/>
+      <method name="handle" signature="handle(&#10;        UserRepositoryInterface $userRepo,&#10;        RoleRepositoryInterface $roleRepo,&#10;        LicenseeRepositoryInterface $licenseeRepo&#10;    )" start="73" end="102" crap="1" executable="14" executed="14" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="60">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="61">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="62">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="63">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="64">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="65">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="79">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="80">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="82">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="85">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="87">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="89">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="93">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="94">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="95">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="96">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="98">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="99">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+      <line nr="102">
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Unit\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

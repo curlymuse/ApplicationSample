@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Repository.php">
+    <totals>
+      <lines total="143" comments="73" code="70" executable="23" executed="17" percent="73.91%"/>
+      <methods count="10" tested="7" percent="70.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Repository" start="5" executable="23" executed="17" crap="11.78">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="__construct" signature="__construct($model)" start="15" end="18" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="all" signature="all()" start="25" end="28" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="store" signature="store($attributes)" start="37" end="40" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="update" signature="update($id, $attributes)" start="50" end="55" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="delete" signature="delete($id)" start="64" end="68" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="find" signature="find($id)" start="77" end="80" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="findWhere" signature="findWhere($cols = [])" start="90" end="95" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="belongsTo" signature="belongsTo($id, $foreignIdColumn, $foreignId)" start="107" end="113" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="exists" signature="exists($id)" start="122" end="127" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="existsWhere" signature="existsWhere($col, $value = null)" start="137" end="142" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="17">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+        <covered by="Tests\Integration\Repositories\EventDateRangeRepositoryTest::test_storeForEvent"/>
+        <covered by="Tests\Integration\Repositories\EventRepositoryTest::test_storeForLicensee"/>
+        <covered by="Tests\Integration\Repositories\PlannerRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_storeForProposalRequest"/>
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_find"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="18">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\ContractRepositoryTest::test_initializeWithProposal"/>
+        <covered by="Tests\Integration\Repositories\EventDateRangeRepositoryTest::test_storeForEvent"/>
+        <covered by="Tests\Integration\Repositories\EventRepositoryTest::test_storeForLicensee"/>
+        <covered by="Tests\Integration\Repositories\PlannerRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_findForProposalRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_hasProposals"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_allForHotel"/>
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_storeForProposalRequest"/>
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_getRoleList"/>
+        <covered by="Tests\Integration\Repositories\RoomRequestDateRepositoryTest::test_syncForEventDateRange"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_findFromRecipientHash"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_find"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_createAccount"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForLicensee"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForClient"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_allForPlanner"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="39">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\PlannerRepositoryTest::test_findOrCreateWithGoogleId"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_storeForRequestAndHotel"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_storeForEvent"/>
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_storeForProposalRequest"/>
+        <covered by="Tests\Integration\Repositories\SpaceRequestRepositoryTest::test_syncForEventDateRange"/>
+        <covered by="Tests\Unit\Jobs\ProposalRequest\DisburseProposalRequestsTest::test_handle"/>
+      </line>
+      <line nr="52">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+      </line>
+      <line nr="53">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+      </line>
+      <line nr="54">
+        <covered by="Tests\Functional\Api\LicenseeProfiles\UpdateLicenseeProfileTest::test_endpoint"/>
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_decline"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_setPassword"/>
+      </line>
+      <line nr="79">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\Contract\CreateContractFromProposalPolicyTest::test_it_fails_with_existing_contract_on_proposal"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_event_date_ranges"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\InitializeProposalRequestPolicyTest::test_it_fails_with_no_room_request_dates"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateAccommodationsPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateFoodBeveragePolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_succeeds_under_compliant_conditions"/>
+        <covered by="Tests\Integration\JobPolicies\ProposalRequest\UpdateSpacesPolicyTest::test_it_fails_when_proposal_request_has_proposals"/>
+        <covered by="DisburseProposalRequestsTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateSpacesTest::test_handle"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_checkUserAccess"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRepositoryTest::test_removeUser"/>
+        <covered by="Tests\Integration\Repositories\ProposalRequestRepositoryTest::test_addUser"/>
+        <covered by="Tests\Integration\Repositories\UserRepositoryTest::test_find"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalsControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="92">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="93">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="94">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_it_adds_new_data_correctly"/>
+        <covered by="Tests\Integration\Jobs\ProposalRequest\UpdateAccommodationsTest::test_event_date_ranges_are_updated_when_they_already_exist"/>
+        <covered by="Tests\Integration\Jobs\User\CreateLicenseeUserTest::test_handle"/>
+        <covered by="Tests\Integration\Repositories\RoleRepositoryTest::test_addRoleToUser"/>
+      </line>
+      <line nr="109">
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="110">
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="111">
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="112">
+        <covered by="Tests\Integration\Repositories\RequestNoteRepositoryTest::test_belongsTo"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+      </line>
+      <line nr="124">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="125">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+      <line nr="126">
+        <covered by="Tests\Foo\ProposalFlowCase1Test::test_original_user_with_no_password_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase2Test::test_original_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase3Test::test_riginal_user_with_passowrd_set_updates_and_submits_using_query_string"/>
+        <covered by="Tests\Foo\ProposalFlowCase4Test::test_other_user_confirms_account"/>
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Integration\Controllers\Api\Hotel\ProposalUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Admin\User\LicenseeUsersControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\ProposalSubmissionsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Hotel\UserConfirmationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ContractsControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\AccommodationsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\FoodBeverageControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_index"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_store"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_update"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\NotesControllerTest::test_destroy"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\SpacesControllerTest::test_update"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="HoteliersController.php">
+    <totals>
+      <lines total="37" comments="5" code="32" executable="9" executed="9" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="HoteliersController" start="10" executable="9" executed="9" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers"/>
+      <method name="home" signature="home()" start="17" end="36" crap="1" executable="9" executed="9" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="19">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="20">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="23">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="31">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="32">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+      <line nr="33">
+        <covered by="Tests\Unit\Controllers\HoteliersControllerTest::test_home"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="EventDetailsController.php">
+    <totals>
+      <lines total="32" comments="7" code="25" executable="4" executed="4" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="EventDetailsController" start="12" executable="4" executed="4" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Http\Controllers\Api\Licensee\ProposalRequest"/>
+      <method name="update" signature="update(UpdateEventDetailsRequest $request, $requestId)" start="21" end="31" crap="1" executable="4" executed="4" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="23">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+      </line>
+      <line nr="24">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Foo\ProposalRequestFlowTest::test"/>
+        <covered by="Tests\Unit\Controllers\Api\Licensee\ProposalRequest\EventDetailsControllerTest::test_update"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

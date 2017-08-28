@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ClientRepository.php">
+    <totals>
+      <lines total="34" comments="9" code="25" executable="11" executed="11" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ClientRepository" start="7" executable="11" executed="11" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="App\Repositories\Eloquent"/>
+      <method name="findOrCreateWithGoogleId" signature="findOrCreateWithGoogleId($googleId, $attributes, &amp;$newObjectCreated = false)" start="18" end="34" crap="2" executable="11" executed="11" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="20">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="21">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="22">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="24">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="29">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+      <line nr="33">
+        <covered by="Tests\Integration\Repositories\ClientRepositoryTest::test_findOrCreateWithGoogleId"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>
